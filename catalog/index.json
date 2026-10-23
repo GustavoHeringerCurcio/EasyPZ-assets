@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "alpha",
-  "generatedAt": "2026-10-22T17:22:50.150Z",
+  "generatedAt": "2026-10-23T02:19:27.347Z",
   "packs": [
     {
       "schemaVersion": 1,
@@ -675,7 +675,7 @@
       "archive": null,
       "workshop": {
         "collectionId": "0",
-        "downloadBytes": 3077217481,
+        "downloadBytes": 3081875661,
         "items": [
           {
             "id": "3619862853",
@@ -795,6 +795,18 @@
             "id": "3615135168",
             "name": "Zombie Virus Vaccine [B42.14 to B42.20 - SP/MP]",
             "sizeBytes": 83594074,
+            "group": "Survival and QoL"
+          },
+          {
+            "id": "3387110070",
+            "name": "They Knew [B42]",
+            "sizeBytes": 265499,
+            "group": "Survival and QoL"
+          },
+          {
+            "id": "3750289416",
+            "name": "They Knew [B42] - 42.19 Fix",
+            "sizeBytes": 33518,
             "group": "Survival and QoL"
           },
           {
@@ -921,6 +933,18 @@
             "id": "3802372726",
             "name": "True Swimming",
             "sizeBytes": 2652103,
+            "group": "Survival and QoL"
+          },
+          {
+            "id": "3750253491",
+            "name": "Common Sense [B42.20+]",
+            "sizeBytes": 883491,
+            "group": "Survival and QoL"
+          },
+          {
+            "id": "2544353492",
+            "name": "Has Been Read",
+            "sizeBytes": 1322250,
             "group": "Survival and QoL"
           },
           {
@@ -1206,6 +1230,12 @@
             "group": "Gameplay"
           },
           {
+            "id": "3742518185",
+            "name": "Zombie Camouflage - Build 42",
+            "sizeBytes": 655551,
+            "group": "Gameplay"
+          },
+          {
             "id": "3026723485",
             "name": "'67 Shelby GT500 + Eleanor",
             "sizeBytes": 18168337,
@@ -1416,6 +1446,12 @@
             "group": "Vehicles"
           },
           {
+            "id": "3635856965",
+            "name": "Better Auto Mechanics [B42.20.4+ MP+SP]",
+            "sizeBytes": 1497871,
+            "group": "Vehicles"
+          },
+          {
             "id": "3821554678",
             "name": "Brief Sprinters",
             "sizeBytes": 52546,
@@ -1491,10 +1527,14 @@
       },
       "groups": [],
       "warnings": [
-        "This package downloads 134 items from Steam Workshop and can take a long time.",
+        "This package downloads 140 items from Steam Workshop and can take a long time.",
         "Start a new save. Big Bear Lake, Constown, Raven Creek, Greenport, and Rabbit Hash add map cells and are not safe to remove mid-save.",
         "Big Bear Lake is an alpha map. Some depth-map and first-person Viewpoint visuals may be unfinished.",
-        "Directional Melee, PoolPit, The Only Cure+, Immersive Physics & Weather and the 99 CVPI are intentionally excluded from Ultra for stability.",
+        "Directional Melee, PoolPit, The Only Cure+, Immersive Physics & Weather and the 99 CVPI are intentionally excluded from Ultra for stability. Expanded Helicopter Events is Build 41 only and is not included.",
+        "They Knew [B42] must load before its 42.19 Fix patch. Do not enable They Knew Continued or other They Knew patches at the same time.",
+        "Zombie Camouflage is a stealth mechanic. Viewpoint Tension and Threat Detector may still warn about zombies that cannot see you, and multiplayer requires the mod's own setup steps.",
+        "Common Sense adds its own ammo counter. Viewpoint Interface already shows firearm rounds, so disable one if the HUD is cluttered.",
+        "Has Been Read may lose map read status after reconnecting on B42.20 multiplayer; this does not affect revealed map areas.",
         "FPS Boost is available in EasyPZ Settings: it applies the Viewpoint floor atlas, lighter True Weathers, blood/ragdoll and vehicle texture limits without removing visual mods.",
         "Every player on a co-op server must use the same Ultra item list and update state. The server needs the same Workshop items and maps.",
         "Workshop updates can change this pack at any time. Update all clients and the server together.",
@@ -1506,12 +1546,12 @@
         "This catalog entry uses public Steam Workshop item IDs; it is not claimed as original work.",
         "Not affiliated with The Indie Stone."
       ],
-      "updatedAt": "2026-10-22",
+      "updatedAt": "2026-10-23",
       "stats": {
-        "clientMods": 134,
+        "clientMods": 140,
         "serverMods": 0,
-        "totalMods": 134,
-        "workshopCount": 134
+        "totalMods": 140,
+        "workshopCount": 140
       }
     },
     {
@@ -3067,6 +3107,267 @@
         "totalMods": 198,
         "workshopCount": 198
       }
+    }
+  ],
+  "uiSuites": [
+    {
+      "id": "viewpoint",
+      "name": "Viewpoint UI",
+      "tagline": "The current Viewpoint interface",
+      "description": "The full Viewpoint Interface suite already used by the packs: first and third person interactions, the clean Viewpoint HUD, inventory, looting, crafting, building and vehicle screens. This is the default and the most tested option.",
+      "cover": "assets/ui-suites/viewpoint-ui.webp",
+      "gallery": [],
+      "accent": "#38bdf8",
+      "order": 10,
+      "recommended": true,
+      "add": [],
+      "remove": [
+        "ViewpointDayZInventory",
+        "DayZ_HUD",
+        "ProjectTarkovFramework",
+        "ProjectTarkovHealth",
+        "ProjectTarkovHUD",
+        "ProjectTarkovLootInventory",
+        "ProjectTarkovMainMenu",
+        "ProjectTarkovMap",
+        "ProjectTarkovOverall",
+        "ProjectTarkovSkills",
+        "TarkovHUDAddons",
+        "ViewpointXTarkovHUD",
+        "INVENTORY_TETRIS"
+      ],
+      "removedItems": [],
+      "items": [],
+      "requires": [
+        "Viewpoint",
+        "ViewpointUI"
+      ],
+      "conflicts": [
+        "ViewpointDayZInventory",
+        "ProjectTarkovFramework"
+      ]
+    },
+    {
+      "id": "dayz",
+      "name": "DayZ UI",
+      "tagline": "DayZ HUD and inventory for Viewpoint",
+      "description": "Viewpoint DayZ replaces the interface with a DayZ-style HUD, grid inventory where clothing is storage, character, crafting, building, mechanics and driving screens. Viewpoint Base and ZombieBuddy stay installed. Everyone on the server must use this same suite.",
+      "cover": "assets/ui-suites/dayz-ui.webp",
+      "gallery": [],
+      "accent": "#d6b25e",
+      "order": 20,
+      "recommended": false,
+      "add": [
+        {
+          "id": "ViewpointDayZInventory",
+          "name": "Viewpoint DayZ",
+          "folder": "ViewpointDayZInventory",
+          "workshopId": "3816819422",
+          "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3816819422",
+          "serverOnly": false
+        }
+      ],
+      "remove": [
+        "ViewpointUI",
+        "ViewpointVehicleTuningCompat",
+        "DayZ_HUD",
+        "ProjectTarkovFramework",
+        "ProjectTarkovHealth",
+        "ProjectTarkovHUD",
+        "ProjectTarkovLootInventory",
+        "ProjectTarkovMainMenu",
+        "ProjectTarkovMap",
+        "ProjectTarkovOverall",
+        "ProjectTarkovSkills",
+        "TarkovHUDAddons",
+        "ViewpointXTarkovHUD",
+        "INVENTORY_TETRIS"
+      ],
+      "removedItems": [
+        "3812616893",
+        "3815739336"
+      ],
+      "items": [
+        {
+          "id": "3816819422",
+          "name": "Viewpoint DayZ",
+          "sizeBytes": 51657811
+        }
+      ],
+      "requires": [
+        "Viewpoint",
+        "ZombieBuddy",
+        "ViewpointDayZInventory"
+      ],
+      "conflicts": [
+        "ViewpointUI",
+        "ProjectTarkovFramework"
+      ]
+    },
+    {
+      "id": "tarkov",
+      "name": "Tarkov UI",
+      "tagline": "Project Tarkov HUD, inventory and Viewpoint loot",
+      "description": "Project Tarkov Framework, Health, HUD and Loot & Inventory, plus Inventory Tetris, the Viewpoint loot bridge and HUD Addons. This changes the HUD and the inventory system together. Everyone on the server must use this same suite.",
+      "cover": "assets/ui-suites/tarkov-ui.webp",
+      "gallery": [],
+      "accent": "#c7a76a",
+      "order": 30,
+      "recommended": false,
+      "add": [
+        {
+          "id": "ProjectTarkovFramework",
+          "name": "Project Tarkov - Framework",
+          "folder": "ProjectTarkov_Framework",
+          "workshopId": "3786513059",
+          "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3786513059",
+          "serverOnly": false
+        },
+        {
+          "id": "ProjectTarkovHealth",
+          "name": "Project Tarkov - Health",
+          "folder": "ProjectTarkov_Health",
+          "workshopId": "3786513059",
+          "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3786513059",
+          "serverOnly": false
+        },
+        {
+          "id": "ProjectTarkovHUD",
+          "name": "Project Tarkov - HUD",
+          "folder": "ProjectTarkov_HUD",
+          "workshopId": "3786513059",
+          "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3786513059",
+          "serverOnly": false
+        },
+        {
+          "id": "ProjectTarkovLootInventory",
+          "name": "Project Tarkov - Loot & Inventory",
+          "folder": "ProjectTarkov_LootInventory",
+          "workshopId": "3786513059",
+          "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3786513059",
+          "serverOnly": false
+        },
+        {
+          "id": "INVENTORY_TETRIS",
+          "name": "Inventory Tetris",
+          "folder": "InventoryTetris",
+          "workshopId": "3775513231",
+          "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3775513231",
+          "serverOnly": false
+        },
+        {
+          "id": "ViewpointXTarkovHUD",
+          "name": "Viewpoint x tarkovHUD",
+          "folder": "Viewpoint x tarkovHUD v0.3.1",
+          "workshopId": "3814571205",
+          "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3814571205",
+          "serverOnly": false
+        },
+        {
+          "id": "TarkovHUDAddons",
+          "name": "Project Tarkov - HUD Addons",
+          "folder": "TarkovHUDAddons",
+          "workshopId": "3820130782",
+          "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3820130782",
+          "serverOnly": false
+        }
+      ],
+      "remove": [
+        "ViewpointUI",
+        "ViewpointVehicleTuningCompat",
+        "ViewpointDayZInventory",
+        "DayZ_HUD"
+      ],
+      "removedItems": [
+        "3812616893",
+        "3815739336",
+        "3816819422"
+      ],
+      "items": [
+        {
+          "id": "3786513059",
+          "name": "Project Tarkov",
+          "sizeBytes": 8626534
+        },
+        {
+          "id": "3775513231",
+          "name": "Inventory Tetris",
+          "sizeBytes": 1701618
+        },
+        {
+          "id": "3814571205",
+          "name": "Viewpoint x tarkovHUD",
+          "sizeBytes": 613828
+        },
+        {
+          "id": "3820130782",
+          "name": "Project Tarkov - HUD Addons",
+          "sizeBytes": 36979
+        }
+      ],
+      "requires": [
+        "Viewpoint",
+        "ZombieBuddy",
+        "ProjectTarkovFramework",
+        "ProjectTarkovHealth",
+        "ProjectTarkovHUD",
+        "ProjectTarkovLootInventory",
+        "INVENTORY_TETRIS",
+        "ViewpointXTarkovHUD",
+        "TarkovHUDAddons"
+      ],
+      "conflicts": [
+        "ViewpointUI",
+        "ViewpointDayZInventory"
+      ]
+    },
+    {
+      "id": "native",
+      "name": "Native Zomboid",
+      "tagline": "Native HUD and inventory",
+      "description": "Keeps Project Viewpoint and ZombieBuddy for the camera and gameplay, but removes ViewpointUI, DayZ, Tarkov and every inventory/HUD replacement. Project Zomboid uses its native HUD, inventory and loot windows.",
+      "cover": "assets/ui-suites/native-ui.webp",
+      "gallery": [],
+      "accent": "#9ca3af",
+      "order": 40,
+      "recommended": false,
+      "add": [],
+      "remove": [
+        "ViewpointUI",
+        "ViewpointVehicleTuningCompat",
+        "ViewpointDayZInventory",
+        "DayZ_HUD",
+        "ProjectTarkovFramework",
+        "ProjectTarkovHealth",
+        "ProjectTarkovHUD",
+        "ProjectTarkovLootInventory",
+        "ProjectTarkovMainMenu",
+        "ProjectTarkovMap",
+        "ProjectTarkovOverall",
+        "ProjectTarkovSkills",
+        "TarkovHUDAddons",
+        "ViewpointXTarkovHUD",
+        "INVENTORY_TETRIS"
+      ],
+      "removedItems": [
+        "3812616893",
+        "3815739336",
+        "3816819422",
+        "3786513059",
+        "3775513231",
+        "3814571205",
+        "3820130782"
+      ],
+      "items": [],
+      "requires": [
+        "Viewpoint",
+        "ZombieBuddy"
+      ],
+      "conflicts": [
+        "ViewpointUI",
+        "ViewpointDayZInventory",
+        "ProjectTarkovFramework"
+      ]
     }
   ]
 }
