@@ -3,7 +3,7 @@
   "id": "ultra",
   "name": "Ultra",
   "tagline": "The complete co-op Viewpoint base",
-  "description": "The complete co-op Viewpoint base, frozen as a locked snapshot. The exact mod files are pinned by SHA-256 and installed without Steam Workshop drift.",
+  "description": "The complete co-op Viewpoint base, frozen as a locked superset (107 mods). The server set is Viewpoint (99 mods). Includes pinned DayZ and Tarkov UI variants, including DayZ + Viewpoint Interface: DayZ inventory/HUD with ViewpointUI quick loot and screens.",
   "cover": "packs/ultra/cover.jpg",
   "gallery": [],
   "accent": "#f5b301",
@@ -22,7 +22,9 @@
     "fps-boost",
     "new-save",
     "locked",
-    "snapshot"
+    "snapshot",
+    "superset",
+    "dayz"
   ],
   "extends": null,
   "order": 25,
@@ -34,20 +36,771 @@
   },
   "source": "archive",
   "archive": {
-    "fileName": "PZ-Ultra-Locked-v1.tar.gz",
-    "sha256": "41781100c96dc2e60833527c863b375a511d64cf5b3545f042c647fe32ec381f",
-    "sizeBytes": 1289307770,
+    "fileName": "PZ-Ultra-Locked-v2.tar.gz",
+    "sha256": "0a702364d13bd992826246e37df6e25a566cb0c505691b2dbaa859caf4664a70",
+    "sizeBytes": 1327908944,
     "requiredDiskGB": 8,
-    "releaseTag": "ultra-locked-v1",
+    "releaseTag": "ultra-locked-v2",
     "urls": {
-      "alpha": "https://github.com/GustavoHeringerCurcio/EasyPZ-assets/releases/download/ultra-locked-v1/PZ-Ultra-Locked-v1.tar.gz",
-      "public": "https://github.com/GustavoHeringerCurcio/EasyPZ-assets/releases/download/ultra-locked-v1/PZ-Ultra-Locked-v1.tar.gz"
-    }
+      "alpha": "https://github.com/GustavoHeringerCurcio/EasyPZ-assets/releases/download/ultra-locked-v2/PZ-Ultra-Locked-v2.tar.gz",
+      "public": "https://github.com/GustavoHeringerCurcio/EasyPZ-assets/releases/download/ultra-locked-v2/PZ-Ultra-Locked-v2.tar.gz"
+    },
+    "manifest": [
+      {
+        "workshopId": "3619862853",
+        "folder": "ZombieBuddy",
+        "manifestHash": "70890b568a3c9fde8931233bf8a2182d6538133f9e30aae42bba6aae2c02c07b",
+        "fileCount": 202,
+        "totalBytes": 14466055
+      },
+      {
+        "workshopId": "3809306528",
+        "folder": "Viewpoint",
+        "manifestHash": "7978d83a971a9b08b22340f4791c3371c7fdd94b1ca5bda7d95983927b91bed1",
+        "fileCount": 17,
+        "totalBytes": 34153469
+      },
+      {
+        "workshopId": "3810302175",
+        "folder": "PZVoxelStudioViewpoint",
+        "manifestHash": "b6817107429c8601b2e923ea13cb10fb7e44bfbab11a2ba40430974c839662be",
+        "fileCount": 35887,
+        "totalBytes": 450786523
+      },
+      {
+        "workshopId": "3812616893",
+        "folder": "ViewpointUI",
+        "manifestHash": "ac9178946618cce2b20a4fd6ccabe563be2d9df7bec53307deceafd32b9a384e",
+        "fileCount": 112,
+        "totalBytes": 2221088
+      },
+      {
+        "workshopId": "3812702301",
+        "folder": "ViewpointAdvancedMovement",
+        "manifestHash": "28e73ca57826bc06a87e8983579bccbdfa976701a6b66f5299a564710eb90c57",
+        "fileCount": 1273,
+        "totalBytes": 54413198
+      },
+      {
+        "workshopId": "3812702301",
+        "folder": "ViewpointAdvancedMovementServer",
+        "manifestHash": "e59b677d285ad79245351edb827fc4cc0cf1896f70776e30e0032c186b835bc2",
+        "fileCount": 5,
+        "totalBytes": 865555
+      },
+      {
+        "workshopId": "3813230118",
+        "folder": "ViewpointEquipmentOverlays",
+        "manifestHash": "40fceef2124282106f9ac4e078fe3810407be168aaf819dd75d5fa5555396483",
+        "fileCount": 114,
+        "totalBytes": 5717707
+      },
+      {
+        "workshopId": "3813194971",
+        "folder": "ViewpointAdvancedThrowables",
+        "manifestHash": "c2d5d3a96ec687f827efa513cff3c311c51cb735175db183c03c7dcdc13959c9",
+        "fileCount": 59,
+        "totalBytes": 1302734
+      },
+      {
+        "workshopId": "3812864848",
+        "folder": "ViewpointTrueBallistics",
+        "manifestHash": "a9a222a894216c706513dab63c78ebf2fb966fda018807422ae8ad07e37d6053",
+        "fileCount": 83,
+        "totalBytes": 772927
+      },
+      {
+        "workshopId": "3812612054",
+        "folder": "ProjectViewpointADS",
+        "manifestHash": "3d9c8f2c052cf7cfde29cef1472da9359447708fbd5f5789006cbb2a35333d60",
+        "fileCount": 45,
+        "totalBytes": 1391740
+      },
+      {
+        "workshopId": "3813908957",
+        "folder": "ViewpointTrueWeathers",
+        "manifestHash": "b584e089c3e36d8cc488cdbc57b004bb9253c1841d0e65090c24985b5f7f86c1",
+        "fileCount": 107,
+        "totalBytes": 1544674
+      },
+      {
+        "workshopId": "3813908957",
+        "folder": "ViewpointTrueWeathersGameplay",
+        "manifestHash": "bbc5b8baf6b11af0397efd53c67fe89a7baf648c5d14d39ee2adf3e949411e6c",
+        "fileCount": 25,
+        "totalBytes": 270508
+      },
+      {
+        "workshopId": "3810179295",
+        "folder": "pz3dMinimap",
+        "manifestHash": "a6824804a8401a7656283c0fc18577ab1a8777587c0e28b05a082c180bbf79ef",
+        "fileCount": 112,
+        "totalBytes": 6331190
+      },
+      {
+        "workshopId": "2956146279",
+        "folder": "RainCleansBlood",
+        "manifestHash": "a6ffbdd6b5f514ca8bcdcbcf4cff03dcb32e97050d7d8de2694634492e154252",
+        "fileCount": 24,
+        "totalBytes": 2315561
+      },
+      {
+        "workshopId": "3607686447",
+        "folder": "ImmersiveBlackouts",
+        "manifestHash": "97489f4641db9960665e30ec10950e0bcec9622a3d152c60c83d8be20e4291de",
+        "fileCount": 22,
+        "totalBytes": 149568
+      },
+      {
+        "workshopId": "3504753006",
+        "folder": "thumpwithfriends",
+        "manifestHash": "d647f524b2740c0c85f516b21ae7102800bb03cb9896c65dc3cbc978103305eb",
+        "fileCount": 15,
+        "totalBytes": 480554
+      },
+      {
+        "workshopId": "3778511497",
+        "folder": "SkullysZombieCollision",
+        "manifestHash": "3096582daf9ded09d0a5923cb01a55796ed97098bd65d0b41220719b38f7ea80",
+        "fileCount": 16,
+        "totalBytes": 281781
+      },
+      {
+        "workshopId": "3780683663",
+        "folder": "CyesPushDoors",
+        "manifestHash": "868bd231c1c7a01472a4346e18fbc7cee398959a5bb55baf2c716d517930b275",
+        "fileCount": 50,
+        "totalBytes": 1244927
+      },
+      {
+        "workshopId": "3577903007",
+        "folder": "Vanilla Foods Expanded",
+        "manifestHash": "f35157f6810c4acec840823264c6c5f2c1d6c976e3a486371113fbb15fa03705",
+        "fileCount": 4816,
+        "totalBytes": 114166963
+      },
+      {
+        "workshopId": "3592172476",
+        "folder": "Take A Bath And Shower DepthMap Fix",
+        "manifestHash": "a58445b7f4ca87ac453b5ea9c402390be7d5faefcbe097052fc07ee0262c49cc",
+        "fileCount": 13,
+        "totalBytes": 824110
+      },
+      {
+        "workshopId": "3592172476",
+        "folder": "Take A Bath And Shower New",
+        "manifestHash": "b2ee604b8e0c4a5f3c66db632d32fbd668075c0aed52ea4e1a5b4dc12ba2df8c",
+        "fileCount": 1154,
+        "totalBytes": 39220441
+      },
+      {
+        "workshopId": "2142622992",
+        "folder": "RepairAnyClothes",
+        "manifestHash": "3f8ba9fb72a84680c19d8fc532f3475cf691c385973f08b0ba1282a9bc8bcbb2",
+        "fileCount": 7,
+        "totalBytes": 57680
+      },
+      {
+        "workshopId": "3387110070",
+        "folder": "TheyKnew [B42]",
+        "manifestHash": "9b182eaad2c77055fc8d0a2c62ac3d8970ebd2be5793b707fa10a02dcc41e0e6",
+        "fileCount": 42,
+        "totalBytes": 265499
+      },
+      {
+        "workshopId": "3750289416",
+        "folder": "TheyKnew B42.19 Fix",
+        "manifestHash": "c01800fa6487bcd3702f927b49bc9aca719a5f42a096e8ef22119dde3cee72c7",
+        "fileCount": 24,
+        "totalBytes": 33518
+      },
+      {
+        "workshopId": "2713921292",
+        "folder": "UndeadSurvivor",
+        "manifestHash": "4d17bca011c26688becff0d8a06b604587443b45c9f6d269478368b839c2d7ee",
+        "fileCount": 1172,
+        "totalBytes": 17987763
+      },
+      {
+        "workshopId": "3171167894",
+        "folder": "damnlib",
+        "manifestHash": "54d43ebc9ad7a1fc82c8dce7b3a85c28379c1696315e10f4f2a7957fd19c0bf9",
+        "fileCount": 2080,
+        "totalBytes": 42407848
+      },
+      {
+        "workshopId": "2625625421",
+        "folder": "isoContainers",
+        "manifestHash": "aae7ba2d16e41df3837d6e437ec41c7b9b417a1eb072c80c448f79450069cc80",
+        "fileCount": 200,
+        "totalBytes": 10907100
+      },
+      {
+        "workshopId": "3775549570",
+        "folder": "alicesWeaponSling",
+        "manifestHash": "659453e352c49cc2c7e7bae733252811f25d68ef97e92a8618fa02db73298b24",
+        "fileCount": 88,
+        "totalBytes": 1336771
+      },
+      {
+        "workshopId": "3775549570",
+        "folder": "alicesWeaponSlingRadialMenu",
+        "manifestHash": "2e5bbdc157a0d222ea35baaf970e0cc858ddb45cd4851a6417bcb54d603115ee",
+        "fileCount": 20,
+        "totalBytes": 62742
+      },
+      {
+        "workshopId": "2896041179",
+        "folder": "errorMagnifier",
+        "manifestHash": "12bf120e18fc49ef0abdb2edc77f04777495b79f7182fa917a3b7d1e4a76709f",
+        "fileCount": 18,
+        "totalBytes": 394032
+      },
+      {
+        "workshopId": "3077900375",
+        "folder": "chuckleberryModdingAlertSystem",
+        "manifestHash": "0d9d4b73a312619937150ae76abf81294dc73bd9c09e953d034b94636ac8ae49",
+        "fileCount": 119,
+        "totalBytes": 674130
+      },
+      {
+        "workshopId": "3817413313",
+        "folder": "ImmersiveDriving",
+        "manifestHash": "7fd9601462de066745690a74c624d4466bb667ac1ea0658a0f7ed52fed40e147",
+        "fileCount": 12,
+        "totalBytes": 120306
+      },
+      {
+        "workshopId": "3820965001",
+        "folder": "Visceral",
+        "manifestHash": "71ca35454c2c7d9bef7a43b0332bb3983e03a23b7c9f8c07f60d8d12c11ebfd0",
+        "fileCount": 3,
+        "totalBytes": 809551
+      },
+      {
+        "workshopId": "3776949545",
+        "folder": "[SVRP] ClassicBows",
+        "manifestHash": "85e407700e80d854921ae1e5cd0da00fff982f31cc6f9ff96aff5689e025bdc4",
+        "fileCount": 227,
+        "totalBytes": 22584314
+      },
+      {
+        "workshopId": "3812984535",
+        "folder": "ViewpointImmersiveEffects",
+        "manifestHash": "3bc4b7ba5aee12e5e7e554880f18294912832b6ac8692d21f4e18ad923acf1d0",
+        "fileCount": 7,
+        "totalBytes": 403128
+      },
+      {
+        "workshopId": "3818432217",
+        "folder": "ViewpointBodycam",
+        "manifestHash": "3fa93d3e4d37c8c28da5de41c6819dc98363350e71115c98450da3194b19ce3a",
+        "fileCount": 21,
+        "totalBytes": 306675
+      },
+      {
+        "workshopId": "3818189653",
+        "folder": "ViewpointVisibleLoot",
+        "manifestHash": "ca982d7699bc7f4fa79431302819745738d4da63f4202751d37a8a72670020a7",
+        "fileCount": 5288,
+        "totalBytes": 188736546
+      },
+      {
+        "workshopId": "3811256204",
+        "folder": "ProjectViewpointQOL",
+        "manifestHash": "719a1be27d02dc263771467bf75916647a0575b6c976da568a41499cbea03bab",
+        "fileCount": 7,
+        "totalBytes": 1189002
+      },
+      {
+        "workshopId": "3819018807",
+        "folder": "ViewpointRightClick",
+        "manifestHash": "5cc589eb1d59ec5eb4ab4c12058b6f170ff1ed960bdccf7aa30e9766d7a5db74",
+        "fileCount": 12,
+        "totalBytes": 355470
+      },
+      {
+        "workshopId": "3815544725",
+        "folder": "ViewpointImmersiveMap",
+        "manifestHash": "be97aa0d758feb5718b90849322c7cbffe97414e51f8445bc1a1cd72ad000d53",
+        "fileCount": 42,
+        "totalBytes": 702665
+      },
+      {
+        "workshopId": "3814994364",
+        "folder": "ViewpointForaging",
+        "manifestHash": "b230f0cdac7f0423673eede8c09f2adb9fa807d15b88b5411e6d161d9e359b99",
+        "fileCount": 91,
+        "totalBytes": 1753896
+      },
+      {
+        "workshopId": "3814560827",
+        "folder": "FishingView",
+        "manifestHash": "d4ebbb5a616cc3bd0677d7241940be9c62234cf57a5576bc3195415fe89046cb",
+        "fileCount": 18,
+        "totalBytes": 310761
+      },
+      {
+        "workshopId": "3750253491",
+        "folder": "CommonSense",
+        "manifestHash": "13c8761c16e972e52787a0d0ce2989054bea82a1bfa2b433899bed96e6d51d63",
+        "fileCount": 106,
+        "totalBytes": 883491
+      },
+      {
+        "workshopId": "2544353492",
+        "folder": "P4HasBeenRead",
+        "manifestHash": "90b809166cb57af0417fefd5374b87b65cd25da2daeabd29d60efa99022d2781",
+        "fileCount": 98,
+        "totalBytes": 1322250
+      },
+      {
+        "workshopId": "3661336777",
+        "folder": "HorseMod",
+        "manifestHash": "195104d53f172af94227b9539724a1c7adf5e542ca247b88959a8e64f9842de0",
+        "fileCount": 992,
+        "totalBytes": 58507343
+      },
+      {
+        "workshopId": "3784003967",
+        "folder": "HorseUtilityAddon",
+        "manifestHash": "7698932a720000749bb56a1ce00ab2487d3e92d0775ade6c04063bf9d23cb4d8",
+        "fileCount": 42,
+        "totalBytes": 434280
+      },
+      {
+        "workshopId": "3813760573",
+        "folder": "HorseMod Viewpoint Patch",
+        "manifestHash": "f66c870e992f7a1e0e377abd2daee65cbc5e6f7635f828f19806a5ca8619ee18",
+        "fileCount": 4,
+        "totalBytes": 270668
+      },
+      {
+        "workshopId": "3820421584",
+        "folder": "ViewpointHorseSolid",
+        "manifestHash": "d3f555ae654a935f4225775372eca10928b765c71278fce86aa3e6522eca28c0",
+        "fileCount": 8,
+        "totalBytes": 118763
+      },
+      {
+        "workshopId": "2584112711",
+        "folder": "Faster Hood Opening",
+        "manifestHash": "f32244e6c089d001ed4e541d2581b8dbf0d5a7c285384a54aa7b31683d25c057",
+        "fileCount": 6,
+        "totalBytes": 50826
+      },
+      {
+        "workshopId": "3816588758",
+        "folder": "ViewpointDeathCam",
+        "manifestHash": "2c328d876612721668e3b1c772108f9ca9d52f84fb337131e253b62b55001043",
+        "fileCount": 4,
+        "totalBytes": 247908
+      },
+      {
+        "workshopId": "3774776279",
+        "folder": "SubirEscaleras",
+        "manifestHash": "ad71b48f464f3042f3336110214820c8a36142e259aae92e1f4648fb45c58b01",
+        "fileCount": 39,
+        "totalBytes": 59468
+      },
+      {
+        "workshopId": "3816521966",
+        "folder": "ViewpointPlacementFix",
+        "manifestHash": "fcc59c05e3673f0f6ebcc93f186c84f2e66d880c36dc1ead791b00acbcb1bb9b",
+        "fileCount": 7,
+        "totalBytes": 272200
+      },
+      {
+        "workshopId": "3817129409",
+        "folder": "ViewpointStability",
+        "manifestHash": "a45804f3a0e44577a07070b10f4fb0827752c02421b9fd494aeba1344c93f7d4",
+        "fileCount": 4,
+        "totalBytes": 48607
+      },
+      {
+        "workshopId": "3821308495",
+        "folder": "ViewpointVisualFixes",
+        "manifestHash": "44171acb1ae8c1f013326c1c8332759e32447da04abdbd97659e4142128c355b",
+        "fileCount": 3,
+        "totalBytes": 50570
+      },
+      {
+        "workshopId": "3822667831",
+        "folder": "ViewpointAudioSync",
+        "manifestHash": "efa86e754c3454038e451763da68711c821f0d2e8dfe28077f4eef2536511b56",
+        "fileCount": 59,
+        "totalBytes": 742526
+      },
+      {
+        "workshopId": "3814398576",
+        "folder": "ViewpointSurface",
+        "manifestHash": "4468c09db56ba1020313490589eb25a7bdd366ca893ec9acf73c1e2c9d12cd91",
+        "fileCount": 49,
+        "totalBytes": 548863
+      },
+      {
+        "workshopId": "3818859807",
+        "folder": "BasileDoors3D",
+        "manifestHash": "2a8f2e0923aae9ded2d07b13ec88ba8a6cc5b06c5ae70f7301d320f003310c6e",
+        "fileCount": 315,
+        "totalBytes": 68785538
+      },
+      {
+        "workshopId": "3820833348",
+        "folder": "DGVWindows3D",
+        "manifestHash": "93ae8fa69573ddd8a0bc12bf56082b11700ee5edf3b9f20d26450c036514e036",
+        "fileCount": 3110,
+        "totalBytes": 113629462
+      },
+      {
+        "workshopId": "3818873810",
+        "folder": "DGVCurtains",
+        "manifestHash": "efd8c4c2038220347d8cd1f775135741a0147a745d73fa4a9a2a2dfc108152e5",
+        "fileCount": 501,
+        "totalBytes": 24054024
+      },
+      {
+        "workshopId": "3814178814",
+        "folder": "ViewpointTileFix",
+        "manifestHash": "75350e75ab3b138ae263824b780f7a1a6194aff46556a4c1b1f8af7455a0801c",
+        "fileCount": 54250,
+        "totalBytes": 229203342
+      },
+      {
+        "workshopId": "3818585720",
+        "folder": "ViewpointBinoculars",
+        "manifestHash": "ddb70109657bfd8736558c75ac809a02f1f6d88f6b237d2a57c7059ff427fe64",
+        "fileCount": 68,
+        "totalBytes": 533179
+      },
+      {
+        "workshopId": "3812518796",
+        "folder": "ViewpointPlace",
+        "manifestHash": "f1b2c3016949a9e55c7421ee60fc03924639e7545dc592a6fb33409f9df1e837",
+        "fileCount": 8,
+        "totalBytes": 50863
+      },
+      {
+        "workshopId": "3742518185",
+        "folder": "Zombie Camouflage - Build 42",
+        "manifestHash": "420791142dd65ce6a71dbb551a1881393228b852241924d0ce2c4ddcbd9848d2",
+        "fileCount": 19,
+        "totalBytes": 655551
+      },
+      {
+        "workshopId": "2991201484",
+        "folder": "69camaro",
+        "manifestHash": "3dae746e2d1866fec6028c763435c7af71132f964450b250ab3f80cb26ca8f1d",
+        "fileCount": 293,
+        "totalBytes": 19382006
+      },
+      {
+        "workshopId": "3379334330",
+        "folder": "82porsche911",
+        "manifestHash": "bb26d3f7abd2ffa8d46051dc69a490218822090763b96a3a1f42c8f2874d66af",
+        "fileCount": 459,
+        "totalBytes": 26748311
+      },
+      {
+        "workshopId": "2846036306",
+        "folder": "92nissanGTR",
+        "manifestHash": "2afa2853ff344f2cbab1aacca30055c62be8110a574ba4e21b727e43a33d768c",
+        "fileCount": 317,
+        "totalBytes": 18649998
+      },
+      {
+        "workshopId": "3647736504",
+        "folder": "96lancerEVO",
+        "manifestHash": "0fc82694d2194b6d89d8a486375dec2dd8a005f0ff2073491cc03aef43aa34d3",
+        "fileCount": 257,
+        "totalBytes": 11342232
+      },
+      {
+        "workshopId": "2962175696",
+        "folder": "92fordCVPI",
+        "manifestHash": "52758b73f5b90e71fd619218611a67c4f101613b8aacf40a266d773d4cdbbd81",
+        "fileCount": 330,
+        "totalBytes": 20320227
+      },
+      {
+        "workshopId": "2942793445",
+        "folder": "90pierceArrow",
+        "manifestHash": "8615e85536f377d661b0d00f44ba5f16be09f721df0932226c07c1fe0b8132ce",
+        "fileCount": 242,
+        "totalBytes": 14320704
+      },
+      {
+        "workshopId": "2952802178",
+        "folder": "90fordF350ambulance",
+        "manifestHash": "9906b28ac90f69befafd6c1659225e082846933862d8a6764df8679ff2142b64",
+        "fileCount": 252,
+        "totalBytes": 10079679
+      },
+      {
+        "workshopId": "3041122351",
+        "folder": "63Type2Van",
+        "manifestHash": "538e47923061f73ede0b688ff77421d9ab95fb8f03be579a94c086f3c597a232",
+        "fileCount": 404,
+        "totalBytes": 27306961
+      },
+      {
+        "workshopId": "3812312558",
+        "folder": "Construction1PViewpoint",
+        "manifestHash": "0544316eb87cc4cd8f5833fc3ef6710e5a9bd91b4d6f8f28d2d66c04c9e6d33b",
+        "fileCount": 9,
+        "totalBytes": 745568
+      },
+      {
+        "workshopId": "3821174725",
+        "folder": "GridVans",
+        "manifestHash": "eff80c893747c355af77282fcc142c99d1286322cfc63496efae0ccd6c6e5bd5",
+        "fileCount": 34,
+        "totalBytes": 57047254
+      },
+      {
+        "workshopId": "3821174725",
+        "folder": "GridVansHost",
+        "manifestHash": "f624a88694844aaaf4c1d4193c21c566dd111e3e54dd66e8283674199ae094f1",
+        "fileCount": 6,
+        "totalBytes": 110183
+      },
+      {
+        "workshopId": "3817030886",
+        "folder": "RVViewpointPatch",
+        "manifestHash": "1cdd15de6eb4813f0495e0f1ed90267c6b67708bc5049862995ccf9fbb3863d9",
+        "fileCount": 4,
+        "totalBytes": 4083
+      },
+      {
+        "workshopId": "3814635273",
+        "folder": "RVV+Viewpoint",
+        "manifestHash": "59e8c17c6984926fa4dbf54b36d8ea2d2e58ac338868909ab715eb92bf36fb06",
+        "fileCount": 8,
+        "totalBytes": 785233
+      },
+      {
+        "workshopId": "3670064951",
+        "folder": "KI5campers",
+        "manifestHash": "c534806d2a9d8710108c60179f67dc90bd76dcac2ef33ef5d8be110fc17ef899",
+        "fileCount": 519,
+        "totalBytes": 28114112
+      },
+      {
+        "workshopId": "3570973322",
+        "folder": "89defender",
+        "manifestHash": "256c446bc81ac4f70e21093771d0d449974d1ab41fb822eb187df17e518521c6",
+        "fileCount": 660,
+        "totalBytes": 29075908
+      },
+      {
+        "workshopId": "3435796523",
+        "folder": "88toyotaHilux",
+        "manifestHash": "bdd0ae8551dbc45e87e1682219b370cb7e0417f0da4b4b497a11f37dddc930fd",
+        "fileCount": 277,
+        "totalBytes": 11811514
+      },
+      {
+        "workshopId": "2705406713",
+        "folder": "Military Tool Kit",
+        "manifestHash": "b73b04cc0c69cc44da309a7f0dcf2d54c5818277718e1934e5867da6598d7224",
+        "fileCount": 331,
+        "totalBytes": 31547512
+      },
+      {
+        "workshopId": "3818039291",
+        "folder": "SteelSights",
+        "manifestHash": "08e96c41a7b428e64c1fbabc933ad65d4d298b59ddd8b00aef8c55d01ca0b825",
+        "fileCount": 51,
+        "totalBytes": 26221527
+      },
+      {
+        "workshopId": "3783444342",
+        "folder": "AviationCore",
+        "manifestHash": "04488a3eca74bee0d16596e68fd3cb6788a1161014ec29af451f4e4ccd424e88",
+        "fileCount": 191,
+        "totalBytes": 6270078
+      },
+      {
+        "workshopId": "3409723807",
+        "folder": "UH-1BHelicopter",
+        "manifestHash": "9ea76ce1acfc6cf05cb9694dc69ba5572866ff1348f485f2d454da8095dcba58",
+        "fileCount": 54,
+        "totalBytes": 14383910
+      },
+      {
+        "workshopId": "3818359767",
+        "folder": "HeliEvent",
+        "manifestHash": "ef710d868ec33713d136144cd0a31c72c1c73fd7b9948bffda8923568693079d",
+        "fileCount": 53,
+        "totalBytes": 6564512
+      },
+      {
+        "workshopId": "3812896812",
+        "folder": "ViewpointHeli",
+        "manifestHash": "dc5630a7eef2aeeb8c97d50c62800c23ac62efa7626b03d8a0c7414392c43729",
+        "fileCount": 10,
+        "totalBytes": 233652
+      },
+      {
+        "workshopId": "3819322670",
+        "folder": "VisibleHelicopterEvent",
+        "manifestHash": "d14cd41cb8c9f89ea5a9ff4cdb5c8d0d019ecee3221e973c5176068b6abce9f9",
+        "fileCount": 13,
+        "totalBytes": 935039
+      },
+      {
+        "workshopId": "3815019204",
+        "folder": "ProjectViewpoint-KI5VehiclePartsFix",
+        "manifestHash": "c355c27732982415671a45a749b57bb7386928e4093ce48b789c96f0c76ee2f4",
+        "fileCount": 6,
+        "totalBytes": 179498
+      },
+      {
+        "workshopId": "3815739336",
+        "folder": "ViewpointVehicleTuningCompat",
+        "manifestHash": "a8cd2019d6f1a5c0f5591a9f8221df2e4883d7eb4ed5428c032394ca89fef8c0",
+        "fileCount": 3,
+        "totalBytes": 5847
+      },
+      {
+        "workshopId": "3635856965",
+        "folder": "better-auto-mechanics",
+        "manifestHash": "f1a76e5350e4b61ce18faff2e7831e62b4d19138d21e2790f9b4680013e836d0",
+        "fileCount": 41,
+        "totalBytes": 1497871
+      },
+      {
+        "workshopId": "3821554678",
+        "folder": "BriefSprinters",
+        "manifestHash": "07799dfac53722762c05aa03b7743e07c33e9b15055800c66ce7d515a90b4ce0",
+        "fileCount": 8,
+        "totalBytes": 52928
+      },
+      {
+        "workshopId": "3386906181",
+        "folder": "B42SandboxOptions",
+        "manifestHash": "60a14bbbe1cccad6a4a2c38681ca5741e47314147dfa9aaea763e41ebd165140",
+        "fileCount": 193,
+        "totalBytes": 9300440
+      },
+      {
+        "workshopId": "2987772693",
+        "folder": "Wolf Extraction Quest",
+        "manifestHash": "476db9bcb15b03c93b306ff74e4c613a6edebc7a16e8d2d4a4e3faba5fb5f2b0",
+        "fileCount": 101,
+        "totalBytes": 10323528
+      },
+      {
+        "workshopId": "3716405632",
+        "folder": "DynamicHordeEvents",
+        "manifestHash": "818908790be680797dc504da665db747980165fd14fc0940d0f66b0224f4f24a",
+        "fileCount": 23,
+        "totalBytes": 3158279
+      },
+      {
+        "workshopId": "3461415167",
+        "folder": "Bicycle",
+        "manifestHash": "d9766d305700005008f38f8f62420885ae7b20bb64ea699f144fc0982e4414e0",
+        "fileCount": 1091,
+        "totalBytes": 52932500
+      },
+      {
+        "workshopId": "3816324722",
+        "folder": "AttachmentsUI",
+        "manifestHash": "2be79148f211587ef21674c473d636e13da914a839b880c1329217bad52983f3",
+        "fileCount": 176,
+        "totalBytes": 1025891
+      },
+      {
+        "workshopId": "3782565181",
+        "folder": "simple-suppressors",
+        "manifestHash": "0b625fc5ab458c6e1e062e6601ae195594b472c169c08f18addd3c4a175aa83f",
+        "fileCount": 128,
+        "totalBytes": 2160034
+      },
+      {
+        "workshopId": "3812559973",
+        "folder": "ViewpointTurbo",
+        "manifestHash": "671165c0b0203dd42926b3c76bfe1e447560ef24917cc5ff2fd083a16a6abd0f",
+        "fileCount": 4,
+        "totalBytes": 3012397
+      },
+      {
+        "workshopId": "3816442251",
+        "folder": "ViewpointLivingProps",
+        "manifestHash": "4d717a2b2e2b293ed37417aa03f3d5c6785fed8ac17a5169604a2832743c656f",
+        "fileCount": 1480,
+        "totalBytes": 81759686
+      },
+      {
+        "workshopId": "3713362869",
+        "folder": "[B42] Faster Reading",
+        "manifestHash": "f07cfd4350dd09b6acd78b50952f68752be4451ffdb3f7abbb53b0eaaf6c36d8",
+        "fileCount": 5,
+        "totalBytes": 88319
+      },
+      {
+        "workshopId": "3816819422",
+        "folder": "ViewpointDayZInventory",
+        "manifestHash": "203cf265e09b84399dac880658ce562ce65c0484933088952c9bfa12ee3da12b",
+        "fileCount": 8839,
+        "totalBytes": 51650821
+      },
+      {
+        "workshopId": "3786513059",
+        "folder": "ProjectTarkov_Framework",
+        "manifestHash": "ca6c3d1cc3566c6a62e6c3c4f71f3cb6f7374f9cec712c67ba1b38153f06f4d4",
+        "fileCount": 161,
+        "totalBytes": 681661
+      },
+      {
+        "workshopId": "3786513059",
+        "folder": "ProjectTarkov_Health",
+        "manifestHash": "f4a857b1ab4203b1f0786aff9cb900516fa6d8ba56b64a5de00c23e9670125dd",
+        "fileCount": 53,
+        "totalBytes": 1465072
+      },
+      {
+        "workshopId": "3786513059",
+        "folder": "ProjectTarkov_HUD",
+        "manifestHash": "d101c495cb30a0785b2aee9de7734dbeaf17f7739ac588af1359486354c6ab6d",
+        "fileCount": 171,
+        "totalBytes": 1854372
+      },
+      {
+        "workshopId": "3786513059",
+        "folder": "ProjectTarkov_LootInventory",
+        "manifestHash": "fe071a6e3076574d9e8a8d13df408a826385c60a3ddaca85005faff07b5cff52",
+        "fileCount": 103,
+        "totalBytes": 1469216
+      },
+      {
+        "workshopId": "3775513231",
+        "folder": "InventoryTetris",
+        "manifestHash": "7ede12784d06a8d2b57e25c9054c03022727190a7ccfd43443861ec77c81ce22",
+        "fileCount": 306,
+        "totalBytes": 1701618
+      },
+      {
+        "workshopId": "3814571205",
+        "folder": "Viewpoint x tarkovHUD v0.3.1",
+        "manifestHash": "e2fc0cb1b27233f9241f3422be195c1c89a68b508376143ecaeea1d413e0f1a4",
+        "fileCount": 12,
+        "totalBytes": 613828
+      },
+      {
+        "workshopId": "3820130782",
+        "folder": "TarkovHUDAddons",
+        "manifestHash": "7962b256cf91c57ffb5c43aa8272b99ac098541e1d4b4dd03d69d661e777d708",
+        "fileCount": 8,
+        "totalBytes": 36979
+      }
+    ]
   },
   "workshop": null,
   "groups": [
     {
-      "name": "Ultra (locked)",
+      "name": "Ultra (locked superset)",
       "mods": [
         {
           "id": "ZombieBuddy",
@@ -840,14 +1593,81 @@
           "workshopId": "3713362869",
           "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3713362869",
           "serverOnly": false
+        },
+        {
+          "id": "ViewpointDayZInventory",
+          "name": "Viewpoint DayZ",
+          "folder": "ViewpointDayZInventory",
+          "workshopId": "3816819422",
+          "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3816819422",
+          "serverOnly": false
+        },
+        {
+          "id": "ProjectTarkovFramework",
+          "name": "Project Tarkov - Framework",
+          "folder": "ProjectTarkov_Framework",
+          "workshopId": "3786513059",
+          "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3786513059",
+          "serverOnly": false
+        },
+        {
+          "id": "ProjectTarkovHealth",
+          "name": "Project Tarkov - Health",
+          "folder": "ProjectTarkov_Health",
+          "workshopId": "3786513059",
+          "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3786513059",
+          "serverOnly": false
+        },
+        {
+          "id": "ProjectTarkovHUD",
+          "name": "Project Tarkov - HUD",
+          "folder": "ProjectTarkov_HUD",
+          "workshopId": "3786513059",
+          "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3786513059",
+          "serverOnly": false
+        },
+        {
+          "id": "ProjectTarkovLootInventory",
+          "name": "Project Tarkov - Loot & Inventory",
+          "folder": "ProjectTarkov_LootInventory",
+          "workshopId": "3786513059",
+          "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3786513059",
+          "serverOnly": false
+        },
+        {
+          "id": "INVENTORY_TETRIS",
+          "name": "Inventory Tetris",
+          "folder": "InventoryTetris",
+          "workshopId": "3775513231",
+          "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3775513231",
+          "serverOnly": false
+        },
+        {
+          "id": "ViewpointXTarkovHUD",
+          "name": "Viewpoint x tarkovHUD",
+          "folder": "Viewpoint x tarkovHUD v0.3.1",
+          "workshopId": "3814571205",
+          "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3814571205",
+          "serverOnly": false
+        },
+        {
+          "id": "TarkovHUDAddons",
+          "name": "Project Tarkov - HUD Addons",
+          "folder": "TarkovHUDAddons",
+          "workshopId": "3820130782",
+          "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3820130782",
+          "serverOnly": false
         }
       ]
     }
   ],
   "warnings": [
-    "This is a locked snapshot (gzip tar, ~1.2 GB). Close Project Zomboid before installing.",
+    "This is a locked snapshot superset (107 mods, ~1.3 GB gzip). Close Project Zomboid before installing.",
+    "The server set is Viewpoint: 99 mods. Use \"Sync to server\" before joining.",
+    "DayZ + Viewpoint Interface is a supported local preset: DayZ remains the inventory and ViewpointUI keeps its HUD, quick loot and scroll/E interaction.",
+    "All players and the server must install this exact snapshot; Update/Repair verifies content and replaces divergent files.",
+    "Do not update this pack from Steam Workshop; it is pinned to the ultra-locked-v2 release.",
     "All players and the server must install this exact snapshot once (Delete mods -> Install).",
-    "Do not update this pack from Steam Workshop; it is pinned to the ultra-locked-v1 release.",
     "Start a new save. This version removes the custom maps Big Bear Lake, Constown, Raven Creek, Greenport, and Rabbit Hash, plus Skateboard, Skill Recovery Journal, and KK's Shelves in 3D.",
     "Spawn Selector was removed. Starting locations now use vanilla spawns or map-provided spawn points.",
     "Directional Melee, PoolPit, The Only Cure+, Immersive Physics & Weather and the 99 CVPI are intentionally excluded from Ultra for stability. Expanded Helicopter Events is Build 41 only and is not included.",
@@ -866,5 +1686,8 @@
     "Not affiliated with The Indie Stone.",
     "Locked snapshot packaged by EasyPZ. All mods belong to their respective authors."
   ],
-  "updatedAt": "2026-10-25T00:29:08.218Z"
+  "updatedAt": "2026-10-25T01:05:14.696Z",
+  "serverSet": {
+    "uiSuiteId": "viewpoint"
+  }
 }
