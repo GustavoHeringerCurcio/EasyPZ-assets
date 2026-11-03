@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "mode": "alpha",
-  "generatedAt": "2026-10-25T01:05:19.439Z",
+  "generatedAt": "2026-11-03T00:48:49.398Z",
   "packs": [
     {
       "schemaVersion": 1,
@@ -34,6 +34,8 @@
       },
       "workshop": null,
       "serverSet": null,
+      "uiSuiteSelection": true,
+      "uiSuiteIds": [],
       "requirements": {
         "freeDiskGB": 3,
         "ramGB": 8,
@@ -166,6 +168,8 @@
       },
       "workshop": null,
       "serverSet": null,
+      "uiSuiteSelection": true,
+      "uiSuiteIds": [],
       "requirements": {
         "freeDiskGB": 4,
         "ramGB": 8,
@@ -595,6 +599,8 @@
       },
       "workshop": null,
       "serverSet": null,
+      "uiSuiteSelection": true,
+      "uiSuiteIds": [],
       "requirements": {
         "freeDiskGB": 5,
         "ramGB": 8,
@@ -1501,6 +1507,8 @@
       "serverSet": {
         "uiSuiteId": "viewpoint"
       },
+      "uiSuiteSelection": true,
+      "uiSuiteIds": [],
       "requirements": {
         "freeDiskGB": 14,
         "ramGB": 8,
@@ -2883,6 +2891,8 @@
         ]
       },
       "serverSet": null,
+      "uiSuiteSelection": true,
+      "uiSuiteIds": [],
       "requirements": {
         "freeDiskGB": 8,
         "ramGB": 8,
@@ -2909,6 +2919,894 @@
         "serverMods": 0,
         "totalMods": 90,
         "workshopCount": 90
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ultra-plus-nightly",
+      "name": "Ultra+ Nightly",
+      "tagline": "Ultra, rebuilt on Project Viewpoint 0.1.7",
+      "description": "The stable Ultra+ Nightly baseline: Project Viewpoint 0.1.7-rc2 with its native 3D models and core UI, the normal Ultra mods, and the updated Workshop items. External Viewpoint addons and UI replacements are intentionally excluded until their authors update them for 0.1.7.",
+      "cover": "packs/ultra-plus-nightly/cover.jpg",
+      "gallery": [],
+      "accent": "#a78bfa",
+      "featured": true,
+      "placeholderArt": true,
+      "gameBuild": "42.21",
+      "tags": [
+        "viewpoint",
+        "ultra",
+        "nightly",
+        "experimental",
+        "core-ui",
+        "new-save",
+        "42.21"
+      ],
+      "extends": null,
+      "order": 30,
+      "source": "archive",
+      "archive": {
+        "fileName": "PZ-Ultra-Plus-Nightly-v1.tar.gz",
+        "sha256": "bfc4a876094938f84aae45a4dcf63c173c8a7dbe459402f23595dc988b1898cd",
+        "sizeBytes": 567819574,
+        "requiredDiskGB": 8,
+        "releaseTag": "ultra-plus-nightly-v1",
+        "manifest": [
+          {
+            "workshopId": "3619862853",
+            "folder": "ZombieBuddy",
+            "manifestHash": "70890b568a3c9fde8931233bf8a2182d6538133f9e30aae42bba6aae2c02c07b",
+            "fileCount": 202,
+            "totalBytes": 14466055
+          },
+          {
+            "workshopId": "3809306528",
+            "folder": "Viewpoint",
+            "manifestHash": "290e5e1a59066c1146e447e170a1b4ccd3f82318f7e3e2de6647877ba1bf7280",
+            "fileCount": 44,
+            "totalBytes": 37242807
+          },
+          {
+            "workshopId": "3810179295",
+            "folder": "pz3dMinimap",
+            "manifestHash": "3c0040a0498b6e86bd3d1ddea93ce44698384990e504c5b878fd33a0722e1148",
+            "fileCount": 112,
+            "totalBytes": 6330257
+          },
+          {
+            "workshopId": "2956146279",
+            "folder": "RainCleansBlood",
+            "manifestHash": "a6ffbdd6b5f514ca8bcdcbcf4cff03dcb32e97050d7d8de2694634492e154252",
+            "fileCount": 24,
+            "totalBytes": 2315561
+          },
+          {
+            "workshopId": "3607686447",
+            "folder": "ImmersiveBlackouts",
+            "manifestHash": "17773e84433889ebf27cf748c956351430206ced383bd30e2dec2b33a744c64a",
+            "fileCount": 22,
+            "totalBytes": 150774
+          },
+          {
+            "workshopId": "3504753006",
+            "folder": "thumpwithfriends",
+            "manifestHash": "d647f524b2740c0c85f516b21ae7102800bb03cb9896c65dc3cbc978103305eb",
+            "fileCount": 15,
+            "totalBytes": 480554
+          },
+          {
+            "workshopId": "3778511497",
+            "folder": "SkullysZombieCollision",
+            "manifestHash": "3096582daf9ded09d0a5923cb01a55796ed97098bd65d0b41220719b38f7ea80",
+            "fileCount": 16,
+            "totalBytes": 281781
+          },
+          {
+            "workshopId": "3780683663",
+            "folder": "CyesPushDoors",
+            "manifestHash": "868bd231c1c7a01472a4346e18fbc7cee398959a5bb55baf2c716d517930b275",
+            "fileCount": 50,
+            "totalBytes": 1244927
+          },
+          {
+            "workshopId": "3577903007",
+            "folder": "Vanilla Foods Expanded",
+            "manifestHash": "54fe0ca007bb7458613ca0c785b5fb2f93b4881d757f5d3dba6f48024cca2ff9",
+            "fileCount": 4825,
+            "totalBytes": 114439417
+          },
+          {
+            "workshopId": "3592172476",
+            "folder": "Take A Bath And Shower DepthMap Fix",
+            "manifestHash": "a58445b7f4ca87ac453b5ea9c402390be7d5faefcbe097052fc07ee0262c49cc",
+            "fileCount": 13,
+            "totalBytes": 824110
+          },
+          {
+            "workshopId": "3592172476",
+            "folder": "Take A Bath And Shower New",
+            "manifestHash": "b2ee604b8e0c4a5f3c66db632d32fbd668075c0aed52ea4e1a5b4dc12ba2df8c",
+            "fileCount": 1154,
+            "totalBytes": 39220441
+          },
+          {
+            "workshopId": "2142622992",
+            "folder": "RepairAnyClothes",
+            "manifestHash": "3f8ba9fb72a84680c19d8fc532f3475cf691c385973f08b0ba1282a9bc8bcbb2",
+            "fileCount": 7,
+            "totalBytes": 57680
+          },
+          {
+            "workshopId": "3387110070",
+            "folder": "TheyKnew [B42]",
+            "manifestHash": "9b182eaad2c77055fc8d0a2c62ac3d8970ebd2be5793b707fa10a02dcc41e0e6",
+            "fileCount": 42,
+            "totalBytes": 265499
+          },
+          {
+            "workshopId": "3750289416",
+            "folder": "TheyKnew B42.19 Fix",
+            "manifestHash": "c01800fa6487bcd3702f927b49bc9aca719a5f42a096e8ef22119dde3cee72c7",
+            "fileCount": 24,
+            "totalBytes": 33518
+          },
+          {
+            "workshopId": "2713921292",
+            "folder": "UndeadSurvivor",
+            "manifestHash": "4d17bca011c26688becff0d8a06b604587443b45c9f6d269478368b839c2d7ee",
+            "fileCount": 1172,
+            "totalBytes": 17987763
+          },
+          {
+            "workshopId": "3171167894",
+            "folder": "damnlib",
+            "manifestHash": "a4e4f3d6c799ba86d058b54c9682a47a2c03c94e3eeeeed960888fa0fc6cc537",
+            "fileCount": 2093,
+            "totalBytes": 42288983
+          },
+          {
+            "workshopId": "2625625421",
+            "folder": "isoContainers",
+            "manifestHash": "aae7ba2d16e41df3837d6e437ec41c7b9b417a1eb072c80c448f79450069cc80",
+            "fileCount": 200,
+            "totalBytes": 10907100
+          },
+          {
+            "workshopId": "3775549570",
+            "folder": "alicesWeaponSling",
+            "manifestHash": "659453e352c49cc2c7e7bae733252811f25d68ef97e92a8618fa02db73298b24",
+            "fileCount": 88,
+            "totalBytes": 1336771
+          },
+          {
+            "workshopId": "3775549570",
+            "folder": "alicesWeaponSlingRadialMenu",
+            "manifestHash": "2e5bbdc157a0d222ea35baaf970e0cc858ddb45cd4851a6417bcb54d603115ee",
+            "fileCount": 20,
+            "totalBytes": 62742
+          },
+          {
+            "workshopId": "2896041179",
+            "folder": "errorMagnifier",
+            "manifestHash": "12bf120e18fc49ef0abdb2edc77f04777495b79f7182fa917a3b7d1e4a76709f",
+            "fileCount": 18,
+            "totalBytes": 394032
+          },
+          {
+            "workshopId": "3077900375",
+            "folder": "chuckleberryModdingAlertSystem",
+            "manifestHash": "0d9d4b73a312619937150ae76abf81294dc73bd9c09e953d034b94636ac8ae49",
+            "fileCount": 119,
+            "totalBytes": 674130
+          },
+          {
+            "workshopId": "3776949545",
+            "folder": "[SVRP] ClassicBows",
+            "manifestHash": "85e407700e80d854921ae1e5cd0da00fff982f31cc6f9ff96aff5689e025bdc4",
+            "fileCount": 227,
+            "totalBytes": 22584314
+          },
+          {
+            "workshopId": "3811256204",
+            "folder": "ProjectViewpointQOL",
+            "manifestHash": "f42957238ff8f9e3bcab09dbb44b98dd70f8871b72692054f066e14b26663184",
+            "fileCount": 8,
+            "totalBytes": 1262279
+          },
+          {
+            "workshopId": "3750253491",
+            "folder": "CommonSense",
+            "manifestHash": "13c8761c16e972e52787a0d0ce2989054bea82a1bfa2b433899bed96e6d51d63",
+            "fileCount": 106,
+            "totalBytes": 883491
+          },
+          {
+            "workshopId": "2544353492",
+            "folder": "P4HasBeenRead",
+            "manifestHash": "90b809166cb57af0417fefd5374b87b65cd25da2daeabd29d60efa99022d2781",
+            "fileCount": 98,
+            "totalBytes": 1322250
+          },
+          {
+            "workshopId": "3661336777",
+            "folder": "HorseMod",
+            "manifestHash": "195104d53f172af94227b9539724a1c7adf5e542ca247b88959a8e64f9842de0",
+            "fileCount": 992,
+            "totalBytes": 58507343
+          },
+          {
+            "workshopId": "3784003967",
+            "folder": "HorseUtilityAddon",
+            "manifestHash": "7698932a720000749bb56a1ce00ab2487d3e92d0775ade6c04063bf9d23cb4d8",
+            "fileCount": 42,
+            "totalBytes": 434280
+          },
+          {
+            "workshopId": "2584112711",
+            "folder": "Faster Hood Opening",
+            "manifestHash": "f32244e6c089d001ed4e541d2581b8dbf0d5a7c285384a54aa7b31683d25c057",
+            "fileCount": 6,
+            "totalBytes": 50826
+          },
+          {
+            "workshopId": "3774776279",
+            "folder": "SubirEscaleras",
+            "manifestHash": "ad71b48f464f3042f3336110214820c8a36142e259aae92e1f4648fb45c58b01",
+            "fileCount": 39,
+            "totalBytes": 59468
+          },
+          {
+            "workshopId": "3742518185",
+            "folder": "Zombie Camouflage - Build 42",
+            "manifestHash": "420791142dd65ce6a71dbb551a1881393228b852241924d0ce2c4ddcbd9848d2",
+            "fileCount": 19,
+            "totalBytes": 655551
+          },
+          {
+            "workshopId": "2991201484",
+            "folder": "69camaro",
+            "manifestHash": "3dae746e2d1866fec6028c763435c7af71132f964450b250ab3f80cb26ca8f1d",
+            "fileCount": 293,
+            "totalBytes": 19382006
+          },
+          {
+            "workshopId": "3379334330",
+            "folder": "82porsche911",
+            "manifestHash": "5d9884b28687b10cd87ec7e028c25d18f40d907ec40d640f14dce81e8033a827",
+            "fileCount": 496,
+            "totalBytes": 27275413
+          },
+          {
+            "workshopId": "2846036306",
+            "folder": "92nissanGTR",
+            "manifestHash": "f39e3322d108a74aa1c93cacc2350f7ee524be5e8e305b7d28cc021ed2dc4190",
+            "fileCount": 351,
+            "totalBytes": 19011993
+          },
+          {
+            "workshopId": "3647736504",
+            "folder": "96lancerEVO",
+            "manifestHash": "0fc82694d2194b6d89d8a486375dec2dd8a005f0ff2073491cc03aef43aa34d3",
+            "fileCount": 257,
+            "totalBytes": 11342232
+          },
+          {
+            "workshopId": "2962175696",
+            "folder": "92fordCVPI",
+            "manifestHash": "52758b73f5b90e71fd619218611a67c4f101613b8aacf40a266d773d4cdbbd81",
+            "fileCount": 330,
+            "totalBytes": 20320227
+          },
+          {
+            "workshopId": "2942793445",
+            "folder": "90pierceArrow",
+            "manifestHash": "8615e85536f377d661b0d00f44ba5f16be09f721df0932226c07c1fe0b8132ce",
+            "fileCount": 242,
+            "totalBytes": 14320704
+          },
+          {
+            "workshopId": "2952802178",
+            "folder": "90fordF350ambulance",
+            "manifestHash": "d9940a16ded2dc2b836eb71a4fef714dce275119470d09c91dc93e081802b969",
+            "fileCount": 279,
+            "totalBytes": 10517745
+          },
+          {
+            "workshopId": "3041122351",
+            "folder": "63Type2Van",
+            "manifestHash": "538e47923061f73ede0b688ff77421d9ab95fb8f03be579a94c086f3c597a232",
+            "fileCount": 404,
+            "totalBytes": 27306961
+          },
+          {
+            "workshopId": "3670064951",
+            "folder": "KI5campers",
+            "manifestHash": "c534806d2a9d8710108c60179f67dc90bd76dcac2ef33ef5d8be110fc17ef899",
+            "fileCount": 519,
+            "totalBytes": 28114112
+          },
+          {
+            "workshopId": "3570973322",
+            "folder": "89defender",
+            "manifestHash": "6bbff1449fd26267c44c9d4523efafbc40ec863aaa161e28a8565d75d08e8725",
+            "fileCount": 660,
+            "totalBytes": 29078075
+          },
+          {
+            "workshopId": "3435796523",
+            "folder": "88toyotaHilux",
+            "manifestHash": "bdd0ae8551dbc45e87e1682219b370cb7e0417f0da4b4b497a11f37dddc930fd",
+            "fileCount": 277,
+            "totalBytes": 11811514
+          },
+          {
+            "workshopId": "2705406713",
+            "folder": "Military Tool Kit",
+            "manifestHash": "b73b04cc0c69cc44da309a7f0dcf2d54c5818277718e1934e5867da6598d7224",
+            "fileCount": 331,
+            "totalBytes": 31547512
+          },
+          {
+            "workshopId": "3818039291",
+            "folder": "SteelSights",
+            "manifestHash": "08e96c41a7b428e64c1fbabc933ad65d4d298b59ddd8b00aef8c55d01ca0b825",
+            "fileCount": 51,
+            "totalBytes": 26221527
+          },
+          {
+            "workshopId": "3783444342",
+            "folder": "AviationCore",
+            "manifestHash": "04488a3eca74bee0d16596e68fd3cb6788a1161014ec29af451f4e4ccd424e88",
+            "fileCount": 191,
+            "totalBytes": 6270078
+          },
+          {
+            "workshopId": "3409723807",
+            "folder": "UH-1BHelicopter",
+            "manifestHash": "9ea76ce1acfc6cf05cb9694dc69ba5572866ff1348f485f2d454da8095dcba58",
+            "fileCount": 54,
+            "totalBytes": 14383910
+          },
+          {
+            "workshopId": "3635856965",
+            "folder": "better-auto-mechanics",
+            "manifestHash": "f1a76e5350e4b61ce18faff2e7831e62b4d19138d21e2790f9b4680013e836d0",
+            "fileCount": 41,
+            "totalBytes": 1497871
+          },
+          {
+            "workshopId": "3821554678",
+            "folder": "BriefSprinters",
+            "manifestHash": "fab9fa6db70f801c0a40138fb778bf91fa2896a5d84ce2662082ac026fc9c814",
+            "fileCount": 8,
+            "totalBytes": 54017
+          },
+          {
+            "workshopId": "3386906181",
+            "folder": "B42SandboxOptions",
+            "manifestHash": "60a14bbbe1cccad6a4a2c38681ca5741e47314147dfa9aaea763e41ebd165140",
+            "fileCount": 193,
+            "totalBytes": 9300440
+          },
+          {
+            "workshopId": "2987772693",
+            "folder": "Wolf Extraction Quest",
+            "manifestHash": "476db9bcb15b03c93b306ff74e4c613a6edebc7a16e8d2d4a4e3faba5fb5f2b0",
+            "fileCount": 101,
+            "totalBytes": 10323528
+          },
+          {
+            "workshopId": "3716405632",
+            "folder": "DynamicHordeEvents",
+            "manifestHash": "818908790be680797dc504da665db747980165fd14fc0940d0f66b0224f4f24a",
+            "fileCount": 23,
+            "totalBytes": 3158279
+          },
+          {
+            "workshopId": "3461415167",
+            "folder": "Bicycle",
+            "manifestHash": "d9766d305700005008f38f8f62420885ae7b20bb64ea699f144fc0982e4414e0",
+            "fileCount": 1091,
+            "totalBytes": 52932500
+          },
+          {
+            "workshopId": "3816324722",
+            "folder": "AttachmentsUI",
+            "manifestHash": "9ad722bd65ca2f70c01e3e22a97b7b2d5a48fb12c9f896f9568f3592c43f026c",
+            "fileCount": 188,
+            "totalBytes": 1105156
+          },
+          {
+            "workshopId": "3782565181",
+            "folder": "simple-suppressors",
+            "manifestHash": "0b625fc5ab458c6e1e062e6601ae195594b472c169c08f18addd3c4a175aa83f",
+            "fileCount": 128,
+            "totalBytes": 2160034
+          },
+          {
+            "workshopId": "3713362869",
+            "folder": "[B42] Faster Reading",
+            "manifestHash": "f07cfd4350dd09b6acd78b50952f68752be4451ffdb3f7abbb53b0eaaf6c36d8",
+            "fileCount": 5,
+            "totalBytes": 88319
+          }
+        ],
+        "url": "https://github.com/GustavoHeringerCurcio/EasyPZ-assets/releases/download/ultra-plus-nightly-v1/PZ-Ultra-Plus-Nightly-v1.tar.gz"
+      },
+      "workshop": null,
+      "serverSet": {
+        "uiSuiteId": "viewpoint-core"
+      },
+      "uiSuiteSelection": false,
+      "uiSuiteIds": [
+        "viewpoint-core"
+      ],
+      "requirements": {
+        "freeDiskGB": 10,
+        "ramGB": 8,
+        "recommendedRamGB": 16,
+        "vramGB": 8
+      },
+      "groups": [
+        {
+          "name": "Ultra+ Nightly",
+          "mods": [
+            {
+              "id": "ZombieBuddy",
+              "name": "ZombieBuddy",
+              "folder": "ZombieBuddy",
+              "workshopId": "3619862853",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3619862853",
+              "serverOnly": false
+            },
+            {
+              "id": "Viewpoint",
+              "name": "Viewpoint",
+              "folder": "Viewpoint",
+              "workshopId": "3809306528",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3809306528",
+              "serverOnly": false
+            },
+            {
+              "id": "aparosa_pz3dMinimap",
+              "name": "Project Viewpoint Minimap (PZ3D Minimap) [B42]",
+              "folder": "pz3dMinimap",
+              "workshopId": "3810179295",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3810179295",
+              "serverOnly": false
+            },
+            {
+              "id": "RainCleansBlood",
+              "name": "Rain Cleans Blood",
+              "folder": "RainCleansBlood",
+              "workshopId": "2956146279",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2956146279",
+              "serverOnly": false
+            },
+            {
+              "id": "ImmersiveBlackouts",
+              "name": "Immersive Blackouts",
+              "folder": "ImmersiveBlackouts",
+              "workshopId": "3607686447",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3607686447",
+              "serverOnly": false
+            },
+            {
+              "id": "ThumpingWithFriends",
+              "name": "Thumping With Friends",
+              "folder": "thumpwithfriends",
+              "workshopId": "3504753006",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3504753006",
+              "serverOnly": false
+            },
+            {
+              "id": "SkullysZombieCollision",
+              "name": "Skully's Zombie Collision",
+              "folder": "SkullysZombieCollision",
+              "workshopId": "3778511497",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3778511497",
+              "serverOnly": false
+            },
+            {
+              "id": "CyesPushDoors",
+              "name": "Cye's Push Doors!",
+              "folder": "CyesPushDoors",
+              "workshopId": "3780683663",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3780683663",
+              "serverOnly": false
+            },
+            {
+              "id": "VanillaFoodsExpanded",
+              "name": "Vanilla Foods Expanded",
+              "folder": "Vanilla Foods Expanded",
+              "workshopId": "3577903007",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3577903007",
+              "serverOnly": false
+            },
+            {
+              "id": "ATakeABathAndShowerDepthMap",
+              "name": "Take A Bath And Shower: DepthMap fix",
+              "folder": "Take A Bath And Shower DepthMap Fix",
+              "workshopId": "3592172476",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3592172476",
+              "serverOnly": false
+            },
+            {
+              "id": "TakeABathAndShowerNew",
+              "name": "Take A Bath And Shower [SP/MP]",
+              "folder": "Take A Bath And Shower New",
+              "workshopId": "3592172476",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3592172476",
+              "serverOnly": false
+            },
+            {
+              "id": "RepairAnyClothes",
+              "name": "Repair Any Clothes",
+              "folder": "RepairAnyClothes",
+              "workshopId": "2142622992",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2142622992",
+              "serverOnly": false
+            },
+            {
+              "id": "TheyKnewB42",
+              "name": "They Knew [B42]",
+              "folder": "TheyKnew [B42]",
+              "workshopId": "3387110070",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3387110070",
+              "serverOnly": false
+            },
+            {
+              "id": "TheyKnew_B42_19_Fix",
+              "name": "They Knew [B42] - 42.19 Fix",
+              "folder": "TheyKnew B42.19 Fix",
+              "workshopId": "3750289416",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3750289416",
+              "serverOnly": false
+            },
+            {
+              "id": "UndeadSuvivor",
+              "name": "UndeadSurvivor",
+              "folder": "UndeadSurvivor",
+              "workshopId": "2713921292",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2713921292",
+              "serverOnly": false
+            },
+            {
+              "id": "damnlib",
+              "name": "that DAMN Library 0.9878b",
+              "folder": "damnlib",
+              "workshopId": "3171167894",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3171167894",
+              "serverOnly": false
+            },
+            {
+              "id": "isoContainers",
+              "name": "Containers!",
+              "folder": "isoContainers",
+              "workshopId": "2625625421",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2625625421",
+              "serverOnly": false
+            },
+            {
+              "id": "alicesWeaponSling",
+              "name": "Alice's Weapon Sling",
+              "folder": "alicesWeaponSling",
+              "workshopId": "3775549570",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3775549570",
+              "serverOnly": false
+            },
+            {
+              "id": "alicesWeaponSlingRadialMenu",
+              "name": "Alice's Weapon Sling - Radial Menu [ADDON]",
+              "folder": "alicesWeaponSlingRadialMenu",
+              "workshopId": "3775549570",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3775549570",
+              "serverOnly": false
+            },
+            {
+              "id": "errorMagnifier",
+              "name": "errorMagnifier",
+              "folder": "errorMagnifier",
+              "workshopId": "2896041179",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2896041179",
+              "serverOnly": false
+            },
+            {
+              "id": "ChuckleberryFinnAlertSystem",
+              "name": "[Optional] Mod Update and Alert System",
+              "folder": "chuckleberryModdingAlertSystem",
+              "workshopId": "3077900375",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3077900375",
+              "serverOnly": false
+            },
+            {
+              "id": "SVRPClassicBows",
+              "name": "[SVRP] ClassicBows",
+              "folder": "[SVRP] ClassicBows",
+              "workshopId": "3776949545",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3776949545",
+              "serverOnly": false
+            },
+            {
+              "id": "ProjectViewpointQOL",
+              "name": "Project Viewpoint QOL",
+              "folder": "ProjectViewpointQOL",
+              "workshopId": "3811256204",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3811256204",
+              "serverOnly": false
+            },
+            {
+              "id": "VB_CommonSense",
+              "name": "Common Sense",
+              "folder": "CommonSense",
+              "workshopId": "3750253491",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3750253491",
+              "serverOnly": false
+            },
+            {
+              "id": "P4HasBeenRead",
+              "name": "Has Been Read",
+              "folder": "P4HasBeenRead",
+              "workshopId": "2544353492",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2544353492",
+              "serverOnly": false
+            },
+            {
+              "id": "Horse",
+              "name": "Horse Mod",
+              "folder": "HorseMod",
+              "workshopId": "3661336777",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3661336777",
+              "serverOnly": false
+            },
+            {
+              "id": "HorseUtilityAddon",
+              "name": "Horse Utility Add-on",
+              "folder": "HorseUtilityAddon",
+              "workshopId": "3784003967",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3784003967",
+              "serverOnly": false
+            },
+            {
+              "id": "FasterHoodOpening",
+              "name": "Faster Hood Opening",
+              "folder": "Faster Hood Opening",
+              "workshopId": "2584112711",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2584112711",
+              "serverOnly": false
+            },
+            {
+              "id": "SubirEscaleras",
+              "name": "Climb Ladders",
+              "folder": "SubirEscaleras",
+              "workshopId": "3774776279",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3774776279",
+              "serverOnly": false
+            },
+            {
+              "id": "ZombieCamouflageB42",
+              "name": "Zombie Camouflage - Build 42",
+              "folder": "Zombie Camouflage - Build 42",
+              "workshopId": "3742518185",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3742518185",
+              "serverOnly": false
+            },
+            {
+              "id": "69camaro",
+              "name": "'69 Chevrolet Camaro",
+              "folder": "69camaro",
+              "workshopId": "2991201484",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2991201484",
+              "serverOnly": false
+            },
+            {
+              "id": "82porsche911",
+              "name": "'82 Porsche 911",
+              "folder": "82porsche911",
+              "workshopId": "3379334330",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3379334330",
+              "serverOnly": false
+            },
+            {
+              "id": "92nissanGTR",
+              "name": "'92 NISSAN Skyline GT-R (R32)",
+              "folder": "92nissanGTR",
+              "workshopId": "2846036306",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2846036306",
+              "serverOnly": false
+            },
+            {
+              "id": "96lancerEVO",
+              "name": "'96 Mitsubishi Lancer EVO IV",
+              "folder": "96lancerEVO",
+              "workshopId": "3647736504",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3647736504",
+              "serverOnly": false
+            },
+            {
+              "id": "92fordCVPI",
+              "name": "'92 Ford Crown Victoria Police Interceptor",
+              "folder": "92fordCVPI",
+              "workshopId": "2962175696",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2962175696",
+              "serverOnly": false
+            },
+            {
+              "id": "90pierceArrow",
+              "name": "'90 Pierce Arrow Pumper and Ladder Trucks",
+              "folder": "90pierceArrow",
+              "workshopId": "2942793445",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2942793445",
+              "serverOnly": false
+            },
+            {
+              "id": "90fordF350ambulance",
+              "name": "'90 Ford F350 Ambulance Type 1",
+              "folder": "90fordF350ambulance",
+              "workshopId": "2952802178",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2952802178",
+              "serverOnly": false
+            },
+            {
+              "id": "63Type2Van",
+              "name": "'63 Volkswagen Type 2 Van",
+              "folder": "63Type2Van",
+              "workshopId": "3041122351",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3041122351",
+              "serverOnly": false
+            },
+            {
+              "id": "KI5campers",
+              "name": "Campers!",
+              "folder": "KI5campers",
+              "workshopId": "3670064951",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3670064951",
+              "serverOnly": false
+            },
+            {
+              "id": "89defender",
+              "name": "'89 LAND ROVER Defender",
+              "folder": "89defender",
+              "workshopId": "3570973322",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3570973322",
+              "serverOnly": false
+            },
+            {
+              "id": "88toyotaHilux",
+              "name": "'88 Toyota Hilux",
+              "folder": "88toyotaHilux",
+              "workshopId": "3435796523",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3435796523",
+              "serverOnly": false
+            },
+            {
+              "id": "Military_Tool_Kit",
+              "name": "Military Tool Kit",
+              "folder": "Military Tool Kit",
+              "workshopId": "2705406713",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2705406713",
+              "serverOnly": false
+            },
+            {
+              "id": "SteelSights",
+              "name": "Steel Sights: Tank Gunner Overhaul + M1 Abrams",
+              "folder": "SteelSights",
+              "workshopId": "3818039291",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3818039291",
+              "serverOnly": false
+            },
+            {
+              "id": "AviationCore",
+              "name": "Aviation Core",
+              "folder": "AviationCore",
+              "workshopId": "3783444342",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3783444342",
+              "serverOnly": false
+            },
+            {
+              "id": "UH-1BHelicopter",
+              "name": "UH-1B Helicopter",
+              "folder": "UH-1BHelicopter",
+              "workshopId": "3409723807",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3409723807",
+              "serverOnly": false
+            },
+            {
+              "id": "better-auto-mechanics",
+              "name": "Better Auto Mechanics",
+              "folder": "better-auto-mechanics",
+              "workshopId": "3635856965",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3635856965",
+              "serverOnly": false
+            },
+            {
+              "id": "BriefSprinters",
+              "name": "Brief Sprinters",
+              "folder": "BriefSprinters",
+              "workshopId": "3821554678",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3821554678",
+              "serverOnly": false
+            },
+            {
+              "id": "SandboxSettings",
+              "name": "[B42] Sandbox Options",
+              "folder": "B42SandboxOptions",
+              "workshopId": "3386906181",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3386906181",
+              "serverOnly": false
+            },
+            {
+              "id": "WolfExtractionQuest",
+              "name": "Wolf Extraction Quest",
+              "folder": "Wolf Extraction Quest",
+              "workshopId": "2987772693",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2987772693",
+              "serverOnly": false
+            },
+            {
+              "id": "DynamicHordeEventsB42",
+              "name": "Dynamic Horde Events B42",
+              "folder": "DynamicHordeEvents",
+              "workshopId": "3716405632",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3716405632",
+              "serverOnly": false
+            },
+            {
+              "id": "BicycleMod",
+              "name": "[B42.12+] Bicycle!",
+              "folder": "Bicycle",
+              "workshopId": "3461415167",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3461415167",
+              "serverOnly": false
+            },
+            {
+              "id": "AttachmentsUI",
+              "name": "Attachments UI",
+              "folder": "AttachmentsUI",
+              "workshopId": "3816324722",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3816324722",
+              "serverOnly": false
+            },
+            {
+              "id": "SimpleSuppressors",
+              "name": "Simple Suppressors",
+              "folder": "simple-suppressors",
+              "workshopId": "3782565181",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3782565181",
+              "serverOnly": false
+            },
+            {
+              "id": "Faster Reading",
+              "name": "[B42] Faster Reading",
+              "folder": "[B42] Faster Reading",
+              "workshopId": "3713362869",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3713362869",
+              "serverOnly": false
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "This is the Ultra+ Nightly test pack built on Project Viewpoint 0.1.7-rc2. Close Project Zomboid before installing.",
+        "External Viewpoint addons and UI replacements are intentionally disabled until they update for 0.1.7. Only the Viewpoint core UI is used.",
+        "No 3D model pack is included. Viewpoint 0.1.7 draws its native 3D models.",
+        "The UI suite is fixed to Viewpoint Core UI. The suite picker is disabled for this pack.",
+        "Start a new save. Nightly builds are experimental.",
+        "If Viewpoint reports an invalid signature, delete Viewpoint.jar.zbs in the active Viewpoint mod folder and restart.",
+        "AMD users: if you see flickering or black shapes, turn off Terrain Relief in World > Detail.",
+        "Report nightly bugs in #nightly-reports on the Project Viewpoint Discord."
+      ],
+      "credits": [
+        "All mods belong to their respective authors.",
+        "Not affiliated with The Indie Stone.",
+        "Ultra+ Nightly is built on Project Viewpoint 0.1.7-rc2."
+      ],
+      "updatedAt": "2026-11-03T00:48:39.358Z",
+      "stats": {
+        "clientMods": 54,
+        "serverMods": 0,
+        "totalMods": 54,
+        "workshopCount": 52
       }
     },
     {
@@ -3926,6 +4824,8 @@
         ]
       },
       "serverSet": null,
+      "uiSuiteSelection": true,
+      "uiSuiteIds": [],
       "requirements": {
         "freeDiskGB": 14,
         "ramGB": 8,
@@ -3991,6 +4891,58 @@
       "conflicts": [
         "ViewpointDayZInventory",
         "ProjectTarkovFramework"
+      ],
+      "packs": []
+    },
+    {
+      "id": "viewpoint-core",
+      "name": "Viewpoint Core UI",
+      "tagline": "The new 0.1.7 inventory and HUD",
+      "description": "Uses Project Viewpoint 0.1.7's built-in inventory, health screen and settings. No ViewpointUI, DayZ, Tarkov or Inventory Tetris is loaded. This is the only UI option for Ultra+ Nightly while the external UI addons update.",
+      "cover": "assets/ui-suites/native-ui.webp",
+      "gallery": [],
+      "accent": "#a78bfa",
+      "order": 15,
+      "recommended": true,
+      "add": [],
+      "remove": [
+        "ViewpointUI",
+        "ViewpointVehicleTuningCompat",
+        "ViewpointDayZInventory",
+        "DayZ_HUD",
+        "ProjectTarkovFramework",
+        "ProjectTarkovHealth",
+        "ProjectTarkovHUD",
+        "ProjectTarkovLootInventory",
+        "ProjectTarkovMainMenu",
+        "ProjectTarkovMap",
+        "ProjectTarkovOverall",
+        "ProjectTarkovSkills",
+        "TarkovHUDAddons",
+        "ViewpointXTarkovHUD",
+        "INVENTORY_TETRIS"
+      ],
+      "removedItems": [
+        "3812616893",
+        "3815739336",
+        "3816819422",
+        "3786513059",
+        "3775513231",
+        "3814571205",
+        "3820130782"
+      ],
+      "items": [],
+      "requires": [
+        "Viewpoint",
+        "ZombieBuddy"
+      ],
+      "conflicts": [
+        "ViewpointUI",
+        "ViewpointDayZInventory",
+        "ProjectTarkovFramework"
+      ],
+      "packs": [
+        "ultra-plus-nightly"
       ]
     },
     {
@@ -4062,7 +5014,8 @@
       "conflicts": [
         "ViewpointUI",
         "ProjectTarkovFramework"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "dayz-viewpoint",
@@ -4132,7 +5085,8 @@
       "conflicts": [
         "ViewpointUI",
         "ProjectTarkovFramework"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "tarkov",
@@ -4263,7 +5217,8 @@
       "conflicts": [
         "ViewpointUI",
         "ViewpointDayZInventory"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "native",
@@ -4311,7 +5266,8 @@
         "ViewpointUI",
         "ViewpointDayZInventory",
         "ProjectTarkovFramework"
-      ]
+      ],
+      "packs": []
     }
   ]
 }
