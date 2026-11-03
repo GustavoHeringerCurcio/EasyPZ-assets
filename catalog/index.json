@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "mode": "alpha",
-  "generatedAt": "2026-11-03T01:54:54.057Z",
+  "generatedAt": "2026-11-03T02:57:30.705Z",
   "packs": [
     {
       "schemaVersion": 1,
@@ -34,6 +34,7 @@
       },
       "workshop": null,
       "serverSet": null,
+      "externalInstalls": [],
       "requirements": {
         "freeDiskGB": 3,
         "ramGB": 8,
@@ -166,6 +167,7 @@
       },
       "workshop": null,
       "serverSet": null,
+      "externalInstalls": [],
       "requirements": {
         "freeDiskGB": 4,
         "ramGB": 8,
@@ -595,6 +597,7 @@
       },
       "workshop": null,
       "serverSet": null,
+      "externalInstalls": [],
       "requirements": {
         "freeDiskGB": 5,
         "ramGB": 8,
@@ -1501,6 +1504,7 @@
       "serverSet": {
         "uiSuiteId": "viewpoint"
       },
+      "externalInstalls": [],
       "requirements": {
         "freeDiskGB": 14,
         "ramGB": 8,
@@ -2408,7 +2412,7 @@
       "id": "ultra-plus",
       "name": "Ultra+",
       "tagline": "Ultra, updated and extended",
-      "description": "The full 107-mod Ultra set, carried onto the stable stack with the stable-safe Workshop updates applied. The UI suites and addon set remain exactly as Ultra. The new Ultra+ additions are added in a later revision.",
+      "description": "The stable Ultra base on Project Viewpoint 0.1.6.1, extended with the curated Ultra+ mods. Sandbox Options is replaced by Sandbox Control. The UI suites remain unchanged. PZ Optimization is installed automatically from its official GitHub release.",
       "cover": "packs/ultra-plus/cover.jpg",
       "gallery": [],
       "accent": "#f97316",
@@ -2419,18 +2423,20 @@
         "viewpoint",
         "ultra",
         "stable",
-        "updated",
+        "expanded",
+        "pz-optimization",
+        "sandbox-control",
         "42.21"
       ],
       "extends": null,
       "order": 26,
       "source": "archive",
       "archive": {
-        "fileName": "PZ-Ultra-Plus-v1.tar.gz",
-        "sha256": "db5e4ce100815a3eec01cf614b9b9cb792a7f12655c864a9b4e527a04efbfb61",
-        "sizeBytes": 1341269012,
-        "requiredDiskGB": 8,
-        "releaseTag": "ultra-plus-v1",
+        "fileName": "PZ-Ultra-Plus-v2.tar.gz",
+        "sha256": "8630a3d21e0d2e5a6b7e0487aea094fd6268b959ee6607f5f552a981e2efde89",
+        "sizeBytes": 1408929525,
+        "requiredDiskGB": 10,
+        "releaseTag": "ultra-plus-v2",
         "manifest": [
           {
             "workshopId": "3619862853",
@@ -2438,6 +2444,20 @@
             "manifestHash": "70890b568a3c9fde8931233bf8a2182d6538133f9e30aae42bba6aae2c02c07b",
             "fileCount": 202,
             "totalBytes": 14466055
+          },
+          {
+            "workshopId": "3818209799",
+            "folder": "PZOptPreloader",
+            "manifestHash": "07e50efe8719bac882c925990916e068ee6d691e01d02cb2938879961b7f5019",
+            "fileCount": 41,
+            "totalBytes": 4011991
+          },
+          {
+            "workshopId": "3412105017",
+            "folder": "Project Seasons",
+            "manifestHash": "fbe4d67135bf770c9c0bb3e3a0accf37ca10f47242abac7c3cb973f6a13b7a43",
+            "fileCount": 49,
+            "totalBytes": 6608649
           },
           {
             "workshopId": "3809306528",
@@ -2456,9 +2476,9 @@
           {
             "workshopId": "3812616893",
             "folder": "ViewpointUI",
-            "manifestHash": "a917aedd118f10cccee9f6df31778440c0cef0e13b789615b6459349bea17644",
-            "fileCount": 113,
-            "totalBytes": 2240256
+            "manifestHash": "ac9178946618cce2b20a4fd6ccabe563be2d9df7bec53307deceafd32b9a384e",
+            "fileCount": 112,
+            "totalBytes": 2221088
           },
           {
             "workshopId": "3812702301",
@@ -2505,16 +2525,16 @@
           {
             "workshopId": "3813908957",
             "folder": "ViewpointTrueWeathers",
-            "manifestHash": "ab4c2c4db457e1e8fb8ec44cc0f173c9998079b782d00521fcfd59597950d2cd",
-            "fileCount": 122,
-            "totalBytes": 2119389
+            "manifestHash": "b584e089c3e36d8cc488cdbc57b004bb9253c1841d0e65090c24985b5f7f86c1",
+            "fileCount": 107,
+            "totalBytes": 1544674
           },
           {
             "workshopId": "3813908957",
             "folder": "ViewpointTrueWeathersGameplay",
-            "manifestHash": "b17c384a387ea3af5421cbaef64b88953aa0693c0b0369a8fb4890f1ee16cd01",
-            "fileCount": 31,
-            "totalBytes": 301704
+            "manifestHash": "bbc5b8baf6b11af0397efd53c67fe89a7baf648c5d14d39ee2adf3e949411e6c",
+            "fileCount": 25,
+            "totalBytes": 270508
           },
           {
             "workshopId": "3810179295",
@@ -2792,9 +2812,9 @@
           {
             "workshopId": "3816521966",
             "folder": "ViewpointPlacementFix",
-            "manifestHash": "bc3bb10be0d1688d4130cbbe260e8b593f3ebfe9a83a519481a601a272bac3fa",
+            "manifestHash": "fcc59c05e3673f0f6ebcc93f186c84f2e66d880c36dc1ead791b00acbcb1bb9b",
             "fileCount": 7,
-            "totalBytes": 272696
+            "totalBytes": 272200
           },
           {
             "workshopId": "3817129409",
@@ -2834,16 +2854,16 @@
           {
             "workshopId": "3820833348",
             "folder": "DGVWindows3D",
-            "manifestHash": "7a3f18853044a113436b05ff3803d141dd270a107b5464657cb2492e21519a33",
-            "fileCount": 3285,
-            "totalBytes": 90162594
+            "manifestHash": "93ae8fa69573ddd8a0bc12bf56082b11700ee5edf3b9f20d26450c036514e036",
+            "fileCount": 3110,
+            "totalBytes": 113629462
           },
           {
             "workshopId": "3818873810",
             "folder": "DGVCurtains",
-            "manifestHash": "282f97a9f38afe431acf89a13d1f9c374cda4c13d43b2b21401df833b8ed1dac",
-            "fileCount": 472,
-            "totalBytes": 18092486
+            "manifestHash": "efd8c4c2038220347d8cd1f775135741a0147a745d73fa4a9a2a2dfc108152e5",
+            "fileCount": 501,
+            "totalBytes": 24054024
           },
           {
             "workshopId": "3814178814",
@@ -2960,9 +2980,9 @@
           {
             "workshopId": "3814635273",
             "folder": "RVV+Viewpoint",
-            "manifestHash": "5a5ca0f0124e813a3fbb2d3b52af61050c93eed4759802f0ab0e3ff443a99ebd",
+            "manifestHash": "59e8c17c6984926fa4dbf54b36d8ea2d2e58ac338868909ab715eb92bf36fb06",
             "fileCount": 8,
-            "totalBytes": 801102
+            "totalBytes": 785233
           },
           {
             "workshopId": "3670064951",
@@ -3061,13 +3081,6 @@
             "manifestHash": "fab9fa6db70f801c0a40138fb778bf91fa2896a5d84ce2662082ac026fc9c814",
             "fileCount": 8,
             "totalBytes": 54017
-          },
-          {
-            "workshopId": "3386906181",
-            "folder": "B42SandboxOptions",
-            "manifestHash": "60a14bbbe1cccad6a4a2c38681ca5741e47314147dfa9aaea763e41ebd165140",
-            "fileCount": 193,
-            "totalBytes": 9300440
           },
           {
             "workshopId": "2987772693",
@@ -3180,16 +3193,161 @@
             "manifestHash": "7962b256cf91c57ffb5c43aa8272b99ac098541e1d4b4dd03d69d661e777d708",
             "fileCount": 8,
             "totalBytes": 36979
+          },
+          {
+            "workshopId": "3811472160",
+            "folder": "ViewpointBloodFX",
+            "manifestHash": "c30c4714727340735dc209acc7c255fad450f9738df015b41a4167871a9ccd8a",
+            "fileCount": 6,
+            "totalBytes": 457200
+          },
+          {
+            "workshopId": "3813801053",
+            "folder": "ViewpointBloodFXAddon",
+            "manifestHash": "2776b4ddb4f80906c1f43f13f86a1107d3333d80d6ef417ebdd20a7cd863ef58",
+            "fileCount": 7,
+            "totalBytes": 75400
+          },
+          {
+            "workshopId": "3827957976",
+            "folder": "RealLimbs",
+            "manifestHash": "9099c2c9b21a2b8bbaf8ec8b7bdd4ea6d6b4977e31a53f74054c0d9dc8db477f",
+            "fileCount": 51,
+            "totalBytes": 833682
+          },
+          {
+            "workshopId": "3825312974",
+            "folder": "SandboxControl",
+            "manifestHash": "0feeb031a57accb77ccb1c5c1e8dafb8e58dbc288512d29f175106b2f4db7bfb",
+            "fileCount": 160,
+            "totalBytes": 8574788
+          },
+          {
+            "workshopId": "3413529369",
+            "folder": "RuneExpRetextured",
+            "manifestHash": "edf02606502b70d90a8aec4ac12acc61549893aee725b28fa56ca32f58144a30",
+            "fileCount": 55,
+            "totalBytes": 166924
+          },
+          {
+            "workshopId": "3801386271",
+            "folder": "OSRS_XP_Drops_MP_Fix",
+            "manifestHash": "daf999a25ce14fd6c7fb536ad074a77a000b356532df0132e5d935166988634f",
+            "fileCount": 8,
+            "totalBytes": 214320
+          },
+          {
+            "workshopId": "2629286881",
+            "folder": "MilPonchosB42",
+            "manifestHash": "e11ce09a9ca3e5d783b2468cf5b2943e921e779e8085a4d70316726ca96609e9",
+            "fileCount": 70,
+            "totalBytes": 7799785
+          },
+          {
+            "workshopId": "3420478458",
+            "folder": "[B42] BetterFlashlights",
+            "manifestHash": "6cfc63858bc8c9f97e82ac97df90c3e07a9345e84e222b404f4be856a5b3f34c",
+            "fileCount": 174,
+            "totalBytes": 2113654
+          },
+          {
+            "workshopId": "3413150945",
+            "folder": "MoreDamagedObjects",
+            "manifestHash": "b971e8693446707e31fdb2ada3f9cb6ef84d2ef1b7e1649ed7e5d9b9ff70acab",
+            "fileCount": 64,
+            "totalBytes": 22210249
+          },
+          {
+            "workshopId": "2732294885",
+            "folder": "Named skill VHS tapes",
+            "manifestHash": "d22ca78ac77e87080f92356a0f5c69f2f4dd1ab266434f27c9aaf7650e49266e",
+            "fileCount": 52,
+            "totalBytes": 629216
+          },
+          {
+            "workshopId": "3802917504",
+            "folder": "DefinitiveDescriptions",
+            "manifestHash": "d290c1991e696074ac86a956fc303d3a2aa7843942f8e1cfc2ca26ada0aa261f",
+            "fileCount": 23,
+            "totalBytes": 648553
+          },
+          {
+            "workshopId": "3389003300",
+            "folder": "[B42] Moodle Descriptions Expanded",
+            "manifestHash": "70098116c73c1b6dfcfe9defec04ab0b2b5a3a80bd97f84695f30eb3dfec6b3f",
+            "fileCount": 29,
+            "totalBytes": 529941
+          },
+          {
+            "workshopId": "3576056135",
+            "folder": "Better Generator Info",
+            "manifestHash": "e2de4b1db1f572854fb65aa29039c5736ea951014b04bc599b039f66e2cbfc4e",
+            "fileCount": 252,
+            "totalBytes": 5102038
+          },
+          {
+            "workshopId": "2366717227",
+            "folder": "SwapIt",
+            "manifestHash": "c8defed94929252442402d482496b6a0545550d67e354afac1a44e04231cd3a5",
+            "fileCount": 69,
+            "totalBytes": 209762
+          },
+          {
+            "workshopId": "3831269803",
+            "folder": "SwapItMPFix",
+            "manifestHash": "639b18fad5f3086295f6f3f4783806f4329a8279663b8dd4d1ed4195d53cd571",
+            "fileCount": 6,
+            "totalBytes": 43878
+          },
+          {
+            "workshopId": "3722064198",
+            "folder": "Gunworks_gang_framework",
+            "manifestHash": "40d6873492583801488ae8504c77b99b5be1ed8c53ddd0ab293cdb56e41b3b3e",
+            "fileCount": 121,
+            "totalBytes": 821361
+          },
+          {
+            "workshopId": "3773834525",
+            "folder": "MarzVanillaGuns",
+            "manifestHash": "1c41385f404d607933c478da112740a9e1ab8ad7affcb4d6f72fd246957221a3",
+            "fileCount": 153,
+            "totalBytes": 3867882
+          },
+          {
+            "workshopId": "3789689438",
+            "folder": "simple-suppressors-gunworks",
+            "manifestHash": "f9cdc2d7d6cd6167fcae263ec20a78e5aaa217196649f83ed78cbe43569fb233",
+            "fileCount": 20,
+            "totalBytes": 357297
+          },
+          {
+            "workshopId": "3749026793",
+            "folder": "CarriableItems",
+            "manifestHash": "3fd112eff2681a669c0f5472092477de343076b0db196119cf270352aba868af",
+            "fileCount": 71,
+            "totalBytes": 3272705
           }
         ],
-        "url": "https://github.com/GustavoHeringerCurcio/EasyPZ-assets/releases/download/ultra-plus-v1/PZ-Ultra-Plus-v1.tar.gz"
+        "url": "https://github.com/GustavoHeringerCurcio/EasyPZ-assets/releases/download/ultra-plus-v2/PZ-Ultra-Plus-v2.tar.gz"
       },
       "workshop": null,
       "serverSet": {
         "uiSuiteId": "viewpoint"
       },
+      "externalInstalls": [
+        {
+          "id": "pz-optimization",
+          "url": "https://github.com/xD3I/PZ_Optimization/releases/download/b42.21-20261102-2253-154126d0/pzopt-4a0e9546ec-classes.zip",
+          "sha256": "d56882cc812900ca1e535eb33e9e55e9b3e004f68f46293adf54bb58b53a1ebc",
+          "sizeBytes": 35502336,
+          "target": "PZ_Optimization",
+          "format": "zip",
+          "verifyFile": "pzopt/build-info.properties",
+          "optional": false
+        }
+      ],
       "requirements": {
-        "freeDiskGB": 14,
+        "freeDiskGB": 16,
         "ramGB": 8,
         "recommendedRamGB": 16,
         "vramGB": 8
@@ -3204,6 +3362,22 @@
               "folder": "ZombieBuddy",
               "workshopId": "3619862853",
               "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3619862853",
+              "serverOnly": false
+            },
+            {
+              "id": "PZOptPreloader",
+              "name": "[B42] PZ Optimization Preloader",
+              "folder": "PZOptPreloader",
+              "workshopId": "3818209799",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3818209799",
+              "serverOnly": false
+            },
+            {
+              "id": "Project_Seasons_B42",
+              "name": "[B42] Project Seasons",
+              "folder": "Project Seasons",
+              "workshopId": "3412105017",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3412105017",
               "serverOnly": false
             },
             {
@@ -3919,14 +4093,6 @@
               "serverOnly": false
             },
             {
-              "id": "SandboxSettings",
-              "name": "[B42] Sandbox Options",
-              "folder": "B42SandboxOptions",
-              "workshopId": "3386906181",
-              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3386906181",
-              "serverOnly": false
-            },
-            {
               "id": "WolfExtractionQuest",
               "name": "Wolf Extraction Quest",
               "folder": "Wolf Extraction Quest",
@@ -4053,28 +4219,184 @@
               "workshopId": "3820130782",
               "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3820130782",
               "serverOnly": false
+            },
+            {
+              "id": "ViewpointBloodFX",
+              "name": "Blood FX for Viewpoint",
+              "folder": "ViewpointBloodFX",
+              "workshopId": "3811472160",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3811472160",
+              "serverOnly": false
+            },
+            {
+              "id": "ViewpointBloodFXAddon",
+              "name": "Blood FX for Viewpoint - Fixes",
+              "folder": "ViewpointBloodFXAddon",
+              "workshopId": "3813801053",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3813801053",
+              "serverOnly": false
+            },
+            {
+              "id": "RealLimbs",
+              "name": "Project Real Limbs",
+              "folder": "RealLimbs",
+              "workshopId": "3827957976",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3827957976",
+              "serverOnly": false
+            },
+            {
+              "id": "SandboxControl",
+              "name": "Sandbox Control - Cheat & Creative Menu",
+              "folder": "SandboxControl",
+              "workshopId": "3825312974",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3825312974",
+              "serverOnly": false
+            },
+            {
+              "id": "RUNE-EXP-RETEXTURED",
+              "name": "OSRS XP Drops Retextured",
+              "folder": "RuneExpRetextured",
+              "workshopId": "3413529369",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3413529369",
+              "serverOnly": false
+            },
+            {
+              "id": "RUNE-EXP-MP-FIX",
+              "name": "[B42] OSRS XP Drops MP Fix",
+              "folder": "OSRS_XP_Drops_MP_Fix",
+              "workshopId": "3801386271",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3801386271",
+              "serverOnly": false
+            },
+            {
+              "id": "MilPonchoB42",
+              "name": "Military Ponchos [B42]",
+              "folder": "MilPonchosB42",
+              "workshopId": "2629286881",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2629286881",
+              "serverOnly": false
+            },
+            {
+              "id": "BetterFlashlightsFixed",
+              "name": "[B42.21] Better Flashlights",
+              "folder": "[B42] BetterFlashlights",
+              "workshopId": "3420478458",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3420478458",
+              "serverOnly": false
+            },
+            {
+              "id": "MoreDamagedObjects",
+              "name": "More Damaged Objects",
+              "folder": "MoreDamagedObjects",
+              "workshopId": "3413150945",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3413150945",
+              "serverOnly": false
+            },
+            {
+              "id": "NamedSkillVHSTapes",
+              "name": "Named Skill VHS Tapes",
+              "folder": "Named skill VHS tapes",
+              "workshopId": "2732294885",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2732294885",
+              "serverOnly": false
+            },
+            {
+              "id": "DefinitiveDescriptions",
+              "name": "Definitive Descriptions",
+              "folder": "DefinitiveDescriptions",
+              "workshopId": "3802917504",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3802917504",
+              "serverOnly": false
+            },
+            {
+              "id": "B42MoodleDescriptionsExpanded",
+              "name": "Moodle Descriptions Expanded",
+              "folder": "[B42] Moodle Descriptions Expanded",
+              "workshopId": "3389003300",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3389003300",
+              "serverOnly": false
+            },
+            {
+              "id": "BetterGeneratorInfo",
+              "name": "Better Generator Info",
+              "folder": "Better Generator Info",
+              "workshopId": "3576056135",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3576056135",
+              "serverOnly": false
+            },
+            {
+              "id": "SwapIt",
+              "name": "SwapIt",
+              "folder": "SwapIt",
+              "workshopId": "2366717227",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2366717227",
+              "serverOnly": false
+            },
+            {
+              "id": "SwapItMPFix",
+              "name": "Swap It - MP Fix",
+              "folder": "SwapItMPFix",
+              "workshopId": "3831269803",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3831269803",
+              "serverOnly": false
+            },
+            {
+              "id": "SWMG",
+              "name": "Gunworks-gang",
+              "folder": "Gunworks_gang_framework",
+              "workshopId": "3722064198",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3722064198",
+              "serverOnly": false
+            },
+            {
+              "id": "MarzVanillaGuns",
+              "name": "Vanilla Weapons Plus - Gunworks Edition",
+              "folder": "MarzVanillaGuns",
+              "workshopId": "3773834525",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3773834525",
+              "serverOnly": false
+            },
+            {
+              "id": "SimpleSuppressorsGunworks",
+              "name": "Simple Suppressors - Gunworks Patch",
+              "folder": "simple-suppressors-gunworks",
+              "workshopId": "3789689438",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3789689438",
+              "serverOnly": false
+            },
+            {
+              "id": "CVI",
+              "name": "Carry Visible Items",
+              "folder": "CarriableItems",
+              "workshopId": "3749026793",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3749026793",
+              "serverOnly": false
             }
           ]
         }
       ],
       "warnings": [
-        "This is the stable Ultra+ base on Project Zomboid 42.21 and Project Viewpoint 0.1.6.1. Close Project Zomboid before installing.",
-        "All 107 Ultra mods are included. The stable-safe Workshop updates are applied.",
-        "The 6277 3D model pack is included. The 6282 pack is intentionally excluded because it glitched the 3D models.",
-        "UI suites are unchanged from Ultra: Viewpoint default, DayZ, DayZ + Viewpoint, Tarkov, and Native.",
-        "The new Ultra+ additions are added in a later revision.",
-        "Start a new save if you install the updated True Weathers, Viewpoint Interface, or Placement Fix."
+        "This is Ultra+ v2 on Project Zomboid 42.21 and Project Viewpoint 0.1.6.1. Close Project Zomboid before installing.",
+        "PZ Optimization is installed automatically from its official GitHub release. It is unsupported with other mods; if FPS caps at 30 or Viewpoint breaks, disable PZOptPreloader.",
+        "Sandbox Control is single-player/split-screen only. It replaces the previous Sandbox Options mod; multiplayer sandbox editing is not supported yet.",
+        "Project Seasons has a reported 42.21 winter bug: snow and blizzards may start instantly at winter. Test a new save.",
+        "3D Blood FX, Visceral and Project Real Limbs overlap in blood and ragdoll effects; test them together.",
+        "Vanilla Weapons PLUS requires Gunworks Framework and may conflict with other weapon mods. Simple Suppressors uses the Gunworks patch.",
+        "PZOptPreloader may ask ZombieBuddy to approve its Java code on first launch.",
+        "Start a new save when adding Project Seasons or the expanded mod set.",
+        "The UI suites are unchanged from Ultra: Viewpoint default, DayZ, DayZ + Viewpoint, Tarkov, and Native."
       ],
       "credits": [
         "All mods belong to their respective authors.",
-        "Not affiliated with The Indie Stone."
+        "Not affiliated with The Indie Stone.",
+        "PZ Optimization is downloaded from its official GitHub release; it is not redistributed in this pack."
       ],
-      "updatedAt": "2026-11-03T01:50:36.952Z",
+      "updatedAt": "2026-11-03T02:54:24.463Z",
       "stats": {
-        "clientMods": 107,
+        "clientMods": 127,
         "serverMods": 0,
-        "totalMods": 107,
-        "workshopCount": 99
+        "totalMods": 127,
+        "workshopCount": 119
       }
     },
     {
@@ -4557,6 +4879,7 @@
         ]
       },
       "serverSet": null,
+      "externalInstalls": [],
       "requirements": {
         "freeDiskGB": 8,
         "ramGB": 8,
@@ -5600,6 +5923,7 @@
         ]
       },
       "serverSet": null,
+      "externalInstalls": [],
       "requirements": {
         "freeDiskGB": 14,
         "ramGB": 8,
