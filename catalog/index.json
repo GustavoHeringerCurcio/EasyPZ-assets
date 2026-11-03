@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "mode": "alpha",
-  "generatedAt": "2026-11-03T02:57:30.705Z",
+  "generatedAt": "2026-11-03T04:25:59.325Z",
   "packs": [
     {
       "schemaVersion": 1,
@@ -2412,7 +2412,7 @@
       "id": "ultra-plus",
       "name": "Ultra+",
       "tagline": "Ultra, updated and extended",
-      "description": "The stable Ultra base on Project Viewpoint 0.1.6.1, extended with the curated Ultra+ mods. Sandbox Options is replaced by Sandbox Control. The UI suites remain unchanged. PZ Optimization is installed automatically from its official GitHub release.",
+      "description": "The stable Ultra base on Project Viewpoint 0.1.6.1, extended with the curated Ultra+ mods. Sandbox Options is replaced by Sandbox Control. The UI suites remain unchanged. PZ Optimization is installed automatically from its official GitHub release. v3 adds Project A-Life with its Viewpoint interface patch and Gore Crawlers.",
       "cover": "packs/ultra-plus/cover.jpg",
       "gallery": [],
       "accent": "#f97316",
@@ -2426,17 +2426,20 @@
         "expanded",
         "pz-optimization",
         "sandbox-control",
-        "42.21"
+        "42.21",
+        "npc",
+        "a-life",
+        "gore-crawlers"
       ],
       "extends": null,
       "order": 26,
       "source": "archive",
       "archive": {
-        "fileName": "PZ-Ultra-Plus-v2.tar.gz",
-        "sha256": "8630a3d21e0d2e5a6b7e0487aea094fd6268b959ee6607f5f552a981e2efde89",
-        "sizeBytes": 1408929525,
+        "fileName": "PZ-Ultra-Plus-v3.tar.gz",
+        "sha256": "8f965e66f0012f921350f933dfdda2af8a5593dec6bcfa0ae6747c80aa6b7704",
+        "sizeBytes": 1457533247,
         "requiredDiskGB": 10,
-        "releaseTag": "ultra-plus-v2",
+        "releaseTag": "ultra-plus-v3",
         "manifest": [
           {
             "workshopId": "3619862853",
@@ -3326,9 +3329,30 @@
             "manifestHash": "3fd112eff2681a669c0f5472092477de343076b0db196119cf270352aba868af",
             "fileCount": 71,
             "totalBytes": 3272705
+          },
+          {
+            "workshopId": "3803984183",
+            "folder": "ProjectALifeNPCs",
+            "manifestHash": "c3fdf02df00454c0d460a1f1fed10e440c8f64ed77a6d3265f2d3e8c507338f0",
+            "fileCount": 1751,
+            "totalBytes": 52856454
+          },
+          {
+            "workshopId": "3825053877",
+            "folder": "DeadWorksZeds",
+            "manifestHash": "3c743d7cb2db846c5709105a6292f9886af55ac4147c2b258fc14fd480733f77",
+            "fileCount": 297,
+            "totalBytes": 34513010
+          },
+          {
+            "workshopId": "3822854313",
+            "folder": "ViewpointALife",
+            "manifestHash": "210d726379a724051aadd7f2bf5962708bf0f1ccc255a8d6d760e92010757685",
+            "fileCount": 13,
+            "totalBytes": 142097
           }
         ],
-        "url": "https://github.com/GustavoHeringerCurcio/EasyPZ-assets/releases/download/ultra-plus-v2/PZ-Ultra-Plus-v2.tar.gz"
+        "url": "https://github.com/GustavoHeringerCurcio/EasyPZ-assets/releases/download/ultra-plus-v3/PZ-Ultra-Plus-v3.tar.gz"
       },
       "workshop": null,
       "serverSet": {
@@ -4371,6 +4395,30 @@
               "workshopId": "3749026793",
               "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3749026793",
               "serverOnly": false
+            },
+            {
+              "id": "ProjectALifeNPCs",
+              "name": "Project A-Life [ALIFE NPCS]",
+              "folder": "ProjectALifeNPCs",
+              "workshopId": "3803984183",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3803984183",
+              "serverOnly": false
+            },
+            {
+              "id": "DeadWorksZeds",
+              "name": "Gore Crawlers & Torn Zombies",
+              "folder": "DeadWorksZeds",
+              "workshopId": "3825053877",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3825053877",
+              "serverOnly": false
+            },
+            {
+              "id": "ViewpointALife",
+              "name": "Viewpoint x A-LIFE",
+              "folder": "ViewpointALife",
+              "workshopId": "3822854313",
+              "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3822854313",
+              "serverOnly": false
             }
           ]
         }
@@ -4384,19 +4432,25 @@
         "Vanilla Weapons PLUS requires Gunworks Framework and may conflict with other weapon mods. Simple Suppressors uses the Gunworks patch.",
         "PZOptPreloader may ask ZombieBuddy to approve its Java code on first launch.",
         "Start a new save when adding Project Seasons or the expanded mod set.",
-        "The UI suites are unchanged from Ultra: Viewpoint default, DayZ, DayZ + Viewpoint, Tarkov, and Native."
+        "The UI suites are unchanged from Ultra: Viewpoint default, DayZ, DayZ + Viewpoint, Tarkov, and Native.",
+        "Project A-Life supports single-player, co-op and multiplayer. Its Viewpoint x A-LIFE interface patch is single-player-tested by its author; multiplayer is untested. Use one NPC mod per save.",
+        "A-Life NPCs use zombie bodies; compatibility with Gore Crawlers is untested. Test A-Life NPCs around gore crawlers.",
+        "Gore Crawlers is a third gore layer alongside Visceral and 3D Blood FX. If performance or visual duplication is bad, disable 3D Blood FX first.",
+        "Gore Crawlers replaces zombie skins; keep it after other zombie-skin mods.",
+        "A-Life can stack with the existing helicopter and horde event mods; test event frequency and performance.",
+        "Viewpoint x A-LIFE has a Java part and needs ZombieBuddy 2.3.0 or newer; approve it on first launch."
       ],
       "credits": [
         "All mods belong to their respective authors.",
         "Not affiliated with The Indie Stone.",
         "PZ Optimization is downloaded from its official GitHub release; it is not redistributed in this pack."
       ],
-      "updatedAt": "2026-11-03T02:54:24.463Z",
+      "updatedAt": "2026-11-03T04:18:15.412Z",
       "stats": {
-        "clientMods": 127,
+        "clientMods": 130,
         "serverMods": 0,
-        "totalMods": 127,
-        "workshopCount": 119
+        "totalMods": 130,
+        "workshopCount": 122
       }
     },
     {
